@@ -52,8 +52,13 @@
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
+//- El número del tema y el icono de la Introducción van OSCUROS: el XD los escribe en
+//- #12263F (el «1» del Tema 1 en (202,207) y la «i» de la Introducción en (208,231), los dos
+//- a 30px bold). El scaffold los fuerza a blanco sobre el naranja y se pierden.
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $color-sistema-texto !important
+  i
+    color: $color-sistema-texto !important
 figcaption 
     font-weight: normal !important
 
@@ -174,14 +179,21 @@ figcaption
   background-color: $color-primario-vo
   min-height: 280px
 
-//- La viñeta de la lista del 1.1 es un brote de 14x14 del XD, no un glifo de FontAwesome.
-//- Reproduce lo que `.lista-ul li > i:first-of-type` hace con los glifos.
+//- VIÑETAS DE LISTA. El brote de 14x14 del XD, no un glifo de FontAwesome, y con SANGRÍA
+//- FRANCESA: cuando el texto salta de línea, la segunda línea arranca debajo de la primera
+//- LETRA, no debajo del icono. En el XD la viñeta va en x=315 y el texto en x=347: 32 px de
+//- sangría (14 del brote + 18 de separación). La plantilla no la trae.
+.lista-ul
+  li
+    padding-left: 32px
+    text-indent: -32px
 .lista-ul__vineta-img
   width: 14px
   display: inline-block
+  text-indent: 0
   position: relative
   top: 4px
-  margin-right: 7px
+  margin-right: 18px
   vertical-align: top
 
 //- El «ejemplo resuelto» del 1.5: panel #C2F6A0 con la foto pegada al borde izquierdo.
@@ -539,3 +551,36 @@ figcaption
     span
       font-weight: $base-bold-font-weight
       line-height: 1
+
+//- Las seis tarjetas del 1.2 van CUADRADAS: el inventario las lista como
+//- `#A0E57E SIN r (CUADRADO)` y la `.tarjeta` del kit redondea a 10. El icono va
+//- centrado contra el bloque de texto, no alineado arriba.
+.tarjeta--recta
+  border-radius: 0
+
+//- TARJETAS CON HOVER. El XD dibuja la cuarta tarjeta del 1.6 ya en estado :hover, así que
+//- su icono del artboard es el de hover y el normal está en el pasteboard (y al revés con
+//- las otras tres). Los dos iconos van APILADOS y se cruzan con `opacity`, nunca con
+//- `display`: así no hay salto de layout ni una segunda petición al pasar el ratón.
+.icono-hover
+  position: relative
+  img
+    transition: opacity 0.3s ease-in-out
+  &__over
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    opacity: 0
+.tarjeta--boton
+  &:hover, &:focus, &:active
+    .icono-hover__base
+      opacity: 0
+    .icono-hover__over
+      opacity: 1
+
+//- El fondo del :hover es #F8EDD3 (la variable clara del secundario), que es lo que el XD
+//- pinta en la cuarta tarjeta; la plantilla usa el secundario a plena fuerza (#E8CB91).
+.tarjeta--boton.color-secundario
+  &:hover, &:focus, &:active
+    background-color: $color-secundario-vc

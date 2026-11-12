@@ -260,7 +260,7 @@
             .col-lg-8
               ul.lista-ul.mb-0
                 li(v-for="(c, i) in categorias" :key="'cat-'+i" :class="{'mb-0': i === categorias.length - 1}")
-                  img.lista-ul__vineta-img(src="@/assets/curso/temas/t1/vineta.svg")
+                  img.lista-ul__vineta-img(src="@/assets/curso/temas/t2/vineta.svg")
                   b(v-html="c.titulo")
                   br
                   | {{ c.texto }}

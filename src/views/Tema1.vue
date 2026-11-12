@@ -95,8 +95,8 @@
             .col-lg-9
               .row
                 .col-md-6.col-lg-4.mb-4(v-for="(c, i) in clasificacion" :key="'clas-'+i")
-                  .tarjeta.bg-2.p-3.h-100
-                    .row.align-items-start.g-0
+                  .tarjeta.tarjeta--recta.bg-2.p-3.h-100
+                    .row.align-items-center.g-0
                       .col-auto.pe-3
                         figure
                           img(:src="require_src(c.icono)" style="width: 50px")
@@ -309,8 +309,9 @@
         .tarjeta--boton.color-secundario.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
-              figure
-                img(:src="require_src(l.icono)")
+              figure.icono-hover
+                img.icono-hover__base(:src="require_src(l.icono)")
+                img.icono-hover__over(:src="require_src(l.iconoOver)")
           h3.text-center(v-html="l.titulo")
           p.mb-0
             b - Recomendación:
@@ -380,24 +381,28 @@ export default {
     labores: [
       {
         icono: '@/assets/curso/temas/t1/h1.svg',
+        iconoOver: '@/assets/curso/temas/t1/h1-over.svg',
         titulo: 'Tracción pesada',
         recomendacion: 'revoluciones cercanas a las nominales.',
         precaucion: 'vigilar temperatura y patinamiento.',
       },
       {
         icono: '@/assets/curso/temas/t1/h2.svg',
+        iconoOver: '@/assets/curso/temas/t1/h2-over.svg',
         titulo: 'Tracción liviana',
         recomendacion: 'marcha más alta y acelerador reducid.',
         precaucion: 'evitar humo negro y esfuerzo del motor.',
       },
       {
         icono: '@/assets/curso/temas/t1/h3.svg',
+        iconoOver: '@/assets/curso/temas/t1/h3-over.svg',
         titulo: 'Con toma de fuerza',
         recomendacion: 'revoluciones que den 540 o 1.000 rpm en la TDF.',
         precaucion: 'no exceder la velocidad normalizada',
       },
       {
         icono: '@/assets/curso/temas/t1/h4.svg',
+        iconoOver: '@/assets/curso/temas/t1/h4-over.svg',
         titulo: 'Transporte',
         recomendacion: 'marcha alta y velocidad segura.',
         precaucion: 'respetar límites en vías rurales.',
