@@ -117,3 +117,35 @@ figcaption
 
   
  
+//- CAJONES ----------------------------------------------------------------
+//- La plantilla deriva el cuerpo del cajón con `color.adjust(..., $lightness)` y no da el
+//- color del diseño: para el secundario calcula #FAF3E5 y el rect del XD es #F8EDD3, que es
+//- justo la «variable clara» de la hoja de paleta del artboard Portada. Se toman de ahí.
+//- La pestaña mide 25x8 en el XD (la plantilla la deja en 25x10).
+.cajon
+  &:before
+    height: 8px
+  &.color-primario
+    background-color: $color-primario-vc
+    &:before
+      background-color: $color-primario
+  &.color-secundario
+    background-color: $color-secundario-vc
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: $color-acento-contenido-vc
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: $color-acento-botones-vc
+    &:before
+      background-color: $color-acento-botones
+
+//- BANNER DE CABECERA ------------------------------------------------------
+//- La plantilla reutiliza aquí el fondo del hero y sale el campo recortado. En el XD el
+//- banner interno es su propia banda (`Enmascarar grupo 1187785`, 1600x220): verde plano
+//- con los arcos y los puntos, sin foto. El `!important` es para ganarle al `style` en
+//- línea que escribe el componente.
+.banner-interno__fondo
+  background-image: url(../assets/curso/banner-interno.png) !important

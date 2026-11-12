@@ -57,10 +57,15 @@ reemplazar por el material de este curso antes de cerrar.
 - El texto del banner principal va forzado a blanco en `_custom.sass`. Si el fondo del hero
   resulta claro, pasa a `$color-sistema-texto`.
 
-## 5. El video de la introducción no trae URL
+## 5. El video de la introducción no trae URL — el embed es de OTRO curso
 
-El `_DI.docx` remite a `722105_CF07_Guion_Introduccion_Video` y el XD pone «Espacio para
-video» sin enlace. Se usará el embed por defecto hasta que el cliente entregue la URL.
+El `_DI.docx` remite a `722105_CF07_Guion_Introduccion_Video` y el XD sólo dibuja un
+«Espacio para video», sin enlace. La Introducción queda con el embed que trae el scaffold,
+que es el video **«Cronograma para el plan BPG»**, de otro componente formativo.
+
+**Hay que sustituirlo** en cuanto el cliente entregue la URL del video de este curso; no es
+una decisión de maquetación. Mientras tanto se deja a la vista a propósito, para que no pase
+inadvertido.
 
 ## 6. `sync-readme-github-pages-link.mjs` imprimía la URL de otra organización
 
