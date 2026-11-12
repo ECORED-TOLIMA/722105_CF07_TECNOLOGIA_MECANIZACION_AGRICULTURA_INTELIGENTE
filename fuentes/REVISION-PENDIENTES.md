@@ -74,3 +74,35 @@ El script del scaffold saca el nombre del repo del remoto, pero llevaba la organ
 URL que no existe. Ahora la organización se deriva también del remoto, con la de Santander como
 respaldo si no hay remoto. `README.md` está en `.gitignore`, así que la URL mala nunca llegó al
 repo del cliente.
+
+## 7. Tema 1: las dos tablas vienen vacías en el diseño
+
+El XD dibuja la Tabla 1 y la Tabla 2 con sus filas y su encabezado, pero sin contenido y con
+una nota rosa encima: **«Completar tabla con doc de instruccional»**. Las dos se rellenaron con
+las tablas del `_DI.docx`, que es la fuente del texto.
+
+**La Tabla 2 sólo tiene dibujado UN divisor vertical** (x=497); la Tabla 1 tiene los dos
+(x=490 y x=914). Como la Tabla 2 está marcada como pendiente de completar, se maquetó con los
+dos divisores, igual que la Tabla 1. Si el diseñador quería uno solo, se quita.
+
+Anchos de columna, medidos en el PDF: Tabla 1 → 19,5 % / 41,7 % / 38,8 %; Tabla 2 → 20,2 % /
+41,3 % / 38,5 %.
+
+## 8. Tema 1: un párrafo del DI que el XD no dibuja
+
+El `_DI.docx` trae, antes de la Tabla 1, la frase «Por lo anterior, la siguiente tabla relaciona
+las características de las máquinas agrícolas y cómo influyen en la forma de operarlas:». **El
+XD no la pinta**: pasa del párrafo de la FAO directamente a la leyenda de la tabla.
+
+Se incluyó, porque el DI es la fuente del texto y dejar fuera contenido del documento es peor
+que una línea de más. Si el diseñador la quitó a propósito, se borra.
+
+## 9. Tema 1: erratas de la fuente, reproducidas tal cual
+
+Están igual en el `_DI.docx` y en el XD, así que se reproducen sin corregir (no se inventa
+contenido). Si el instruccional las corrige, se actualizan las dos:
+
+- «marcha más alta y acelerador **reducid**» (tarjeta «Tracción liviana»), sin la «o» final.
+- «no exceder la velocidad normalizada» (tarjeta «Con toma de fuerza»), sin punto final.
+- El DI repite dos veces seguidas la frase «Una misma labor puede combinar varias de ellas…»;
+  el XD la pinta una vez y así se maquetó.

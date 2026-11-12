@@ -149,3 +149,106 @@ figcaption
 //- línea que escribe el componente.
 .banner-interno__fondo
   background-image: url(../assets/curso/banner-interno.png) !important
+
+//- TEMA 1 ------------------------------------------------------------------
+//- Fondos planos. Una clase por PAR (relleno, radio) leído del rect del XD; los tres son
+//- cuadrados (el inventario los lista «SIN r»).
+.bg-1
+  background-color: $color-secundario-vc
+.bg-2
+  background-color: $color-primario
+.bg-3
+  background-color: $color-primario
+
+//- La banda del 1.2 mide 1328 en el XD, o sea el ancho COMPLETO de la tarjeta: tiene que
+//- salirse de su `p-md-5` (48 px por lado). En móvil vuelve a su sitio.
+.bg-banda-1
+  background-color: $color-secundario-vc
+  margin-inline: -3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+
+//- El 1.1 es un `bloque-texto-g` sobre el verde oscuro del XD (`Image Place Holder`,
+//- #1A5307 = la variable oscura del primario), no sobre un tinte de la plantilla.
+.bloque-texto-g--t1
+  background-color: $color-primario-vo
+  min-height: 280px
+
+//- La viñeta de la lista del 1.1 es un brote de 14x14 del XD, no un glifo de FontAwesome.
+//- Reproduce lo que `.lista-ul li > i:first-of-type` hace con los glifos.
+.lista-ul__vineta-img
+  width: 14px
+  display: inline-block
+  position: relative
+  top: 4px
+  margin-right: 7px
+  vertical-align: top
+
+//- El «ejemplo resuelto» del 1.5: panel #C2F6A0 con la foto pegada al borde izquierdo.
+.bloque-ejemplo
+  background-color: $color-primario-v
+  overflow: hidden
+
+//- TABLAS. El kit deja el `thead` en su gris pase lo que pase y el borde superior de 5px
+//- es el rect #FEB241 del XD. Las dos tablas NO comparten anchos: los divisores grises
+//- están en x=490 y x=914 en la Tabla 1 y en x=497 en la Tabla 2 (medidos en el PDF).
+.tabla-a
+  &.tabla--t1-1, &.tabla--t1-2
+    thead
+      border-color: $color-acento-contenido
+      background-color: $color-acento-contenido-vc
+      color: $color-sistema-texto
+      th
+        border: none
+    tbody
+      tr
+        background-color: $color-sistema-h
+        &:nth-child(even)
+          background-color: $white
+      td
+        border: none
+        padding: 17px 20px
+      td:first-child, td:nth-child(2)
+        border-right: 1px solid #AFAFAF
+  &.tabla--t1-1
+    th:first-child, td:first-child
+      width: 19.5%
+    th:nth-child(2), td:nth-child(2)
+      width: 41.7%
+  &.tabla--t1-2
+    th:first-child, td:first-child
+      width: 20.2%
+    th:nth-child(2), td:nth-child(2)
+      width: 41.3%
+
+//- TARJETA CON HOVER. El XD dibuja la fila con tres tarjetas en #E8D5D5 y una en #F8EDD3:
+//- ésa no es otra tarjeta, es el estado :hover. El kit las deja en su gris de sistema.
+.tarjeta--boton
+  background-color: $color-acento-botones-vc
+
+//- LINEATIEMPOD del 1.3. El kit deja las barras grises; el XD las pinta #E8D5D5 cerradas
+//- y #F8EDD3 la abierta, con radio 5.
+.linea-tiempo-d--t1
+  .linea-tiempo-d__item__number,
+  .linea-tiempo-d__item__content
+    background-color: $color-acento-botones-vc
+    border-radius: 5px
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number,
+    .linea-tiempo-d__item__content
+      background-color: $color-secundario-vc
+
+//- La lista del 1.1 va compacta: el XD pone los cuatro ítems a 35 px (una línea de 24 px
+//- más 11 de aire), y la plantilla deja 10 px de `margin-bottom` más el alto del párrafo.
+.lista-ul--compacta
+  li
+    margin-bottom: 0
+
+//- El badge del ítem abierto del LineaTiempoD va en el acento de botón con el número en
+//- BLANCO: así lo escribe el XD (el «1» es #FFFFFF y el 2, 3 y 4 son #12263F).
+.linea-tiempo-d--t1
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number
+      background-color: $color-acento-botones
+      span
+        color: $white
