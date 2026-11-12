@@ -472,3 +472,70 @@ figcaption
 .tarjeta-avatar
   .tarjeta
     width: 100%
+
+//- TEMA 5 ------------------------------------------------------------------
+//- El 5.4 repite el `bloque-texto-g` sobre el verde oscuro del XD.
+.bloque-texto-g--t5
+  background-color: $color-primario-vo
+  min-height: 282px
+
+//- TABLAS 8 y 9. La 8 sólo tiene dibujado un divisor (x=498) y la 9 tiene CUATRO
+//- columnas con encabezados de plantilla («Elemento», «Descripción»): las dos se
+//- maquetan a tres columnas con el contenido del `_DI.docx`, igual que las anteriores.
+.tabla-a.tabla--t5
+  thead
+    border-color: $color-acento-contenido
+    background-color: $color-acento-contenido-vc
+    color: $color-sistema-texto
+    th
+      border: none
+  tbody
+    tr
+      background-color: $color-sistema-h
+      &:nth-child(even)
+        background-color: $white
+    td
+      border: none
+      padding: 17px 20px
+    td:first-child, td:nth-child(2)
+      border-right: 1px solid #AFAFAF
+  th:first-child, td:first-child
+    width: 20.3%
+  th:nth-child(2), td:nth-child(2)
+    width: 41%
+
+//- Las seis tarjetas del carrusel del 5.5 comparten fondo, como las del 2.5, pero con su
+//- propio render: el `Trazado 1043197` de este artboard, no el del Tema 2.
+.tarjeta--control
+  background-image: url(../assets/curso/temas/t5/c-fondo.png)
+  background-size: cover
+  background-position: center
+  border-radius: 20px
+  min-height: 430px
+
+//- La lista de fases del 5.2: el XD pone un cuadro naranja de 24x24 EN LÍNEA con el
+//- título (badge en x=309, texto en x=347) y separa los ítems con una línea #AFAFAF de
+//- 972 px. No es `.lista-ol--cuadro`, que apila el número encima.
+.lista-fases
+  &__item
+    display: flex
+    gap: 14px
+    padding-bottom: 18px
+    margin-bottom: 18px
+    border-bottom: 1px solid #AFAFAF
+    &:last-child
+      padding-bottom: 0
+      margin-bottom: 0
+      border-bottom: none
+  &__num
+    flex: 0 0 24px
+    width: 24px
+    height: 24px
+    margin-top: 3px
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: $color-acento-contenido
+    span
+      font-weight: $base-bold-font-weight
+      line-height: 1

@@ -159,3 +159,20 @@ para el plan BPG», de otro curso**—. Son **dos** videos por sustituir, no uno
 «La combinación de estas técnicas permite obtener una caracterización más completa que la
 utilización de una sola fuente de información.» aparece dos veces seguidas en el `_DI.docx`.
 Va una vez, como en los temas 1, 2 y 3.
+
+## 17. Tema 5: la Tabla 9 está dibujada con CUATRO columnas y encabezados de plantilla
+
+El XD dibuja la Tabla 9 con **tres divisores** (x=582, 958 y 1133), es decir cuatro columnas,
+y sus únicos encabezados son **«Elemento»** y **«Descripción»**, que son los rótulos genéricos
+de la plantilla y no corresponden a este contenido. El `_DI.docx` da la tabla a **tres
+columnas**: Manual · Contenido · Uso en la operación.
+
+Se maquetó con las tres columnas y los encabezados del DI. La Tabla 8 repite lo de la Tabla 2:
+un solo divisor dibujado (x=498) de los dos que necesita; se completó igual que las demás.
+
+Con esto, **las nueve tablas del curso** vienen vacías en el diseño y salen del DI.
+
+## 18. Tema 5: quinta frase repetida en el DI (5.5)
+
+«El operador debe realizar únicamente las tareas autorizadas, registrar su ejecución y
+reportar anomalías…» aparece dos veces seguidas en el `_DI.docx`. Va una vez.
