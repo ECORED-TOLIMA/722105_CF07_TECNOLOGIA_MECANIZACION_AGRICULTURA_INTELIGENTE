@@ -29,7 +29,7 @@
           p.mb-0 Los implementos se clasifican por la labor que realizan (labranza primaria, labranza secundaria, siembra, fertilización, protección de cultivos, cosecha y transporte), por la forma de acople (suspendidos, semisuspendidos y de arrastre) y por la fuente de accionamiento (tirados, accionados por la toma de fuerza, hidráulicos o eléctricos). Estas clasificaciones se complementan: un mismo implemento puede identificarse según su función, su unión al tractor y la forma en que recibe la potencia.
       .col-lg-4
         figure
-          img(src="@/assets/curso/temas/t2/f2.png" style="width: 396px").m-auto
+          img(src="@/assets/curso/temas/t2/f2.png" style="width: 396px").r-10.m-auto
 
     p.mt-4 Sus características técnicas principales son el ancho de trabajo, el peso, la potencia requerida, la velocidad recomendada y los rangos de ajuste. Reconocerlas permite distinguir las posibilidades de uso de cada equipo y comprender que implementos destinados a una misma labor pueden presentar configuraciones diferentes.
 
@@ -188,7 +188,7 @@
               p.mb-0 El funcionamiento del conjunto está condicionado por la potencia disponible, la capacidad de levante del sistema hidráulico, la distribución del peso y la estabilidad. Incorporar más equipos aumenta las exigencias sobre el tractor y puede dificultar las maniobras. Por ello, una reducción del número de pasadas no garantiza, por sí sola, menor consumo o compactación: también deben considerarse el peso total y las condiciones del terreno.
       .col-lg-3
         figure
-          img(src="@/assets/curso/temas/t2/f10.png" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t2/f10.png" style="width: 292px").r-10.m-auto
 
     .row.mt-4
       .col-lg-9
@@ -253,7 +253,7 @@
 
     p.mt-4 El enganche de tres puntos se clasifica en categorías que establecen las dimensiones de acoplamiento entre el tractor y el implemento. Cada categoría define el diámetro de los pasadores, la separación entre los puntos de enganche y otras medidas de conexión. De manera orientativa, se relacionan con los equipos de la siguiente forma:
 
-    .row.bg-banda-3.mt-4
+    .row.bg-banda-3.mx-0.mt-4
       .col-12
         .p-4.p-md-5
           .row.align-items-center
@@ -266,7 +266,7 @@
                   | {{ c.texto }}
             .col-lg-4.d-none.d-lg-block
               figure
-                img(src="@/assets/curso/temas/t2/f12.png" style="width: 369px").m-auto
+                img(src="@/assets/curso/temas/t2/f12.png" style="width: 369px").r-20.m-auto
 
     .row.justify-content-center.mt-4
       .col-lg-10

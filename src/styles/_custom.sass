@@ -584,3 +584,31 @@ figcaption
 .tarjeta--boton.color-secundario
   &:hover, &:focus, &:active
     background-color: $color-secundario-vc
+
+//- Los cuatro paneles de potencia del 3.2 NO miden lo mismo en el XD: 299, 315, 315 y 301
+//- sobre los 1228 del contenido. Con `col-md` salen los cuatro a 307.
+.panel-w-299
+  flex: 0 0 auto
+  width: 24.3%
+.panel-w-315
+  flex: 0 0 auto
+  width: 25.6%
+.panel-w-301
+  flex: 0 0 auto
+  width: 24.4%
+
+//- Los tres paneles de tráfico del 4.5 miden 405, 419 y 405 en el XD, no un tercio cada uno.
+.panel-w-405
+  flex: 0 0 auto
+  width: 32.9%
+.panel-w-419
+  flex: 0 0 auto
+  width: 34.1%
+
+//- RADIO DE LAS FOTOS. Va en la máscara del XD (`clipPathResources`), no en el nodo, y el
+//- pipeline las rasteriza CUADRADAS: hay que ponérselo al `img`. Diez fotos del curso lo
+//- llevan, comprobadas una por una con el paso 1j de `verificar_maqueta.py`.
+.r-11
+  border-radius: 11px
+.r-20
+  border-radius: 20px

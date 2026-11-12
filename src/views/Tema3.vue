@@ -27,7 +27,7 @@
           p.mb-0 Una selección adecuada permite evitar tanto la adquisición de equipos con capacidad innecesaria como el uso de maquinaria insuficiente para completar el trabajo previsto. La decisión debe considerar el conjunto tractor–implemento, pues sus componentes necesitan ser compatibles y responder a las mismas condiciones de operación.
       .col-lg-3
         figure
-          img(src="@/assets/curso/temas/t3/f2.png" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t3/f2.png" style="width: 292px").r-10.m-auto
 
     .row.mt-4
       .col-lg-9
@@ -125,7 +125,7 @@
     p.mt-4 La potencia disponible varía según el punto del tractor donde se aprovecha. A continuación, se describen los principales tipos, dónde se miden y los factores que influyen en ellos:
 
     .tarjeta--container.row.mt-4(data-aos="fade-down")
-      .col-md.tarjeta.p-4.p-md-5(v-for="(p, i) in potencias" :key="'pot-'+i" :class="p.clase")
+      .tarjeta.p-4.p-md-5(v-for="(p, i) in potencias" :key="'pot-'+i" :class="[p.clase, p.ancho]")
         .row.justify-content-center.mb-3
           .col-auto
             figure
@@ -311,6 +311,7 @@ export default {
     potencias: [
       {
         clase: 'bg-5',
+        ancho: 'panel-w-299',
         icono: '@/assets/curso/temas/t3/p1.svg',
         titulo: 'Potencia del motor',
         texto:
@@ -318,6 +319,7 @@ export default {
       },
       {
         clase: 'bg-6',
+        ancho: 'panel-w-315',
         icono: '@/assets/curso/temas/t3/p2.svg',
         titulo: 'Potencia a la Toma de Fuerza (TDF)',
         texto:
@@ -325,6 +327,7 @@ export default {
       },
       {
         clase: 'bg-7',
+        ancho: 'panel-w-315',
         icono: '@/assets/curso/temas/t3/p3.svg',
         titulo: 'Potencia a la barra de tiro',
         texto:
@@ -332,6 +335,7 @@ export default {
       },
       {
         clase: 'bg-8',
+        ancho: 'panel-w-301',
         icono: '@/assets/curso/temas/t3/p4.svg',
         titulo: 'Potencia hidráulica',
         texto:

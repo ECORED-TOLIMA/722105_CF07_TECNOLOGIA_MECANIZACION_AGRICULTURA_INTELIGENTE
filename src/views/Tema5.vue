@@ -258,7 +258,7 @@
     .row.align-items-start.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/t5/f7.png" style="width: 396px").m-auto
+          img(src="@/assets/curso/temas/t5/f7.png" style="width: 396px").r-10.m-auto
       .col-lg-8
         p El alistamiento de temporada es una preparación programada antes de los periodos de mayor actividad, como la preparación del suelo, la siembra o la cosecha. A diferencia del chequeo diario, permite revisar con anticipación necesidades de mantenimiento, repuestos, configuración y capacitación.
         .bg-1.p-4(data-aos="fade-down")

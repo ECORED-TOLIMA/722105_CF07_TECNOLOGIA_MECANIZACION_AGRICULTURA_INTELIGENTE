@@ -201,7 +201,7 @@
 
     .row.align-items-center.mt-4
       .col-lg-8.mb-4.mb-lg-0
-        .bg-1.p-4(data-aos="fade-down")
+        .bg-4.p-4(data-aos="fade-down")
           p.mb-0 Durante las labores agrícolas, el polvo, los residuos vegetales y las variaciones de carga aumentan las exigencias sobre estos sistemas. Por ello, el operador debe conocer su función, interpretar los indicadores del tablero y reconocer cambios en el comportamiento de la máquina. La detección oportuna de anomalías permite prevenir daños y paradas imprevistas. Las revisiones e intervenciones deben realizarse según el manual técnico y el alcance de las responsabilidades del operador.
       .col-lg-4
         figure

@@ -63,7 +63,7 @@
     .row.justify-content-center.mt-4
       .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/t4/f1.png" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t4/f1.png" style="width: 292px").r-11.m-auto
       .col-lg-7
         LineaTiempoD.linea-tiempo-d--t1(data-aos="fade-down")
           .row(v-for="(t, i) in tecnicas" :key="'tec-'+i" :numero="String(i + 1)" :titulo="t.titulo")
@@ -138,7 +138,7 @@
     .row.align-items-start.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/t4/f3.png" style="width: 396px").m-auto
+          img(src="@/assets/curso/temas/t4/f3.png" style="width: 396px").r-10.m-auto
       .col-lg-8
         p La variabilidad espacial corresponde a las diferencias del suelo o del cultivo entre puntos de un mismo lote. Una superficie aparentemente uniforme puede contener zonas con distinta textura, humedad, compactación o fertilidad.
         .cajon.color-primario.p-4(data-aos="fade-down")
@@ -179,7 +179,7 @@
     p Para comprender las diferentes formas de circulación, se distinguen tres situaciones:
 
     .tarjeta--container.row.mt-4(data-aos="fade-down")
-      .col-md.tarjeta.p-4.p-md-5(v-for="(t, i) in trafico" :key="'tra-'+i" :class="t.clase")
+      .tarjeta.p-4.p-md-5(v-for="(t, i) in trafico" :key="'tra-'+i" :class="[t.clase, t.ancho]")
         .row.justify-content-center.mb-3
           .col-auto
             figure
@@ -202,7 +202,7 @@
         p.mt-4.mb-0 Su implementación también presenta limitaciones: puede requerir adaptar trochas y anchos de trabajo, invertir en guiado y coordinar equipos propios con maquinaria alquilada o contratada. Los lotes pequeños o irregulares y las maniobras de cosecha pueden dificultar la coincidencia de las huellas.
       .col-lg-4
         figure
-          img(src="@/assets/curso/temas/t4/f4.png" style="width: 396px").m-auto
+          img(src="@/assets/curso/temas/t4/f4.png" style="width: 396px").r-10.m-auto
 
     p.mt-4 Puede aplicarse en sistemas de granos, caña y otros cultivos donde sea posible organizar recorridos repetidos. Incluso una intervención parcial, como establecer carriles para los vehículos de transporte, permite comenzar a ordenar la circulación.
 
@@ -233,7 +233,7 @@
         p.mb-0 La prueba manual consiste en tomar muestras a la profundidad de trabajo y observar su comportamiento al comprimirlas y desmenuzarlas. Como orientación se tiene:
       .col-lg-3
         figure
-          img(src="@/assets/curso/temas/t4/f6.png" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t4/f6.png" style="width: 292px").r-10.m-auto
 
     .row.mt-5
       .col-md-6.col-lg-4.mb-5.mb-lg-0(v-for="(m, i) in muestras" :key="'mue-'+i")
@@ -247,7 +247,7 @@
     .row.align-items-start.mt-4
       .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/t4/f7.png" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t4/f7.png" style="width: 292px").r-20.m-auto
       .col-lg-9
         p La formación de una bola o cinta no debe interpretarse de manera aislada: los suelos arenosos, francos y arcillosos responden de forma diferente. La prueba debe repetirse en varias zonas y complementarse con la observación del perfil y, cuando estén disponibles, mediciones de humedad.
         .bg-4.p-4(data-aos="fade-down")
@@ -349,6 +349,7 @@ export default {
     trafico: [
       {
         clase: 'bg-5',
+        ancho: 'panel-w-405',
         icono: '@/assets/curso/temas/t4/t1.svg',
         titulo: 'Tráfico aleatorio',
         texto:
@@ -356,6 +357,7 @@ export default {
       },
       {
         clase: 'bg-6',
+        ancho: 'panel-w-419',
         icono: '@/assets/curso/temas/t4/t2.svg',
         titulo: 'Tráfico dirigido',
         texto:
@@ -363,6 +365,7 @@ export default {
       },
       {
         clase: 'bg-7',
+        ancho: 'panel-w-405',
         icono: '@/assets/curso/temas/t4/t3.svg',
         titulo: 'Tráfico controlado',
         texto:
