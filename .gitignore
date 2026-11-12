@@ -20,3 +20,27 @@ pnpm-debug.log*
 *.sln
 *.sw?
 README.md
+
+# Herramientas del XD y sus salidas: son canónicas en el taller
+# (D:\SENA-TOLIMA\proyectoSena\xd_sen\herramientas-xd) y aquí sólo utillaje local
+# del maquetador. No van en el repo del cliente.
+scripts/*.py
+scripts/__pycache__/
+scripts/errores_recurrentes.json
+scripts/entorno.sh
+docs/
+# El .xd descomprimido (config.descomprimir()): se regenera del .xd de fuentes/.
+fuentes/722105_CF07_DW/
+# Playbook, memoria y documentación del maquetador.
+.claude/
+doc_agent/
+
+# Herramientas del XD y sus salidas: viven en el repo padre (`herramientas-xd/`)
+# y aquí son sólo utillaje local del maquetador.
+scripts/*.py
+scripts/__pycache__/
+scripts/errores_recurrentes.json
+scripts/entorno.sh
+docs/
+# El .xd descomprimido (config.descomprimir()): se regenera del .xd de fuentes/.
+fuentes/722105_CF07_DW/
