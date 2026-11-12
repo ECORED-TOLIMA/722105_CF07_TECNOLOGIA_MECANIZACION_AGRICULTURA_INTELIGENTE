@@ -176,3 +176,42 @@ Con esto, **las nueve tablas del curso** vienen vacías en el diseño y salen de
 
 «El operador debe realizar únicamente las tareas autorizadas, registrar su ejecución y
 reportar anomalías…» aparece dos veces seguidas en el `_DI.docx`. Va una vez.
+
+## 19. Actividad: las diez imágenes son de OTRO curso y solo hay cinco distintas
+
+El `722105_CF07_AD.docx` no trae imágenes y el `.xd` no tiene artboard de actividad: las aporta
+el diseñador. Mientras tanto quedan las del scaffold, que son **de otro componente formativo**
+—se ve un laboratorio de electrónica con una placa de circuito, nada que ver con maquinaria
+agrícola— y además están **duplicadas**: cinco archivos distintos repartidos en diez nombres
+(`imagen1=imagen7`, `imagen2=imagen8`, `imagen3=imagen9`, `imagen10=imagen4`, `imagen5=imagen6`).
+
+La vista referencia `imagen1`..`imagen10`, una por cada pregunta que el kit muestra, para que
+al llegar las definitivas baste con sustituir los diez archivos. **No se inventaron**: recortar
+fotos de los temas en cuadrado sería otro lenguaje gráfico distinto al del curso.
+
+**Es lo más visible que queda pendiente de la entrega.**
+
+## 20. Actividad: se quita el prefijo de la retroalimentación (y por qué)
+
+El `_AD.docx` escribe las veinte retroalimentaciones correctas empezando por «¡Excelente
+trabajo! ». El kit ya pinta una etiqueta fija **«¡Correcto!»** en verde delante del mensaje
+(`ActividadPregunta.vue`), así que dejarlo literal daría «¡Correcto! ¡Excelente trabajo! Se
+evidencia…», dos felicitaciones seguidas.
+
+Se guarda el mensaje **sin ese prefijo**. Es la única licencia que se toma sobre el texto del
+documento. Por eso el paso `1f` de `verificar_maqueta.py` marca las veinte como «reescritas»:
+es un falso positivo conocido, no un defecto.
+
+Los títulos de resultado (`titulo_aprobado` / `titulo_reprobado`) no se escriben: el DOCX no
+los da y se usan los `default` de la prop del kit, «¡BUEN TRABAJO!» y «VUELVE A INTENTARLO».
+
+## 21. Síntesis: el artboard es la hoja del anexo, no la pantalla
+
+El artboard `Sintesis` del `.xd` es el **anexo imprimible** (lleva el logo SENA dentro de la
+tarjeta, una cabecera con el nombre del programa y no tiene barra de navegación). La pantalla
+web se maquetó con la convención del kit —`BannerInterno` + tarjeta + mapa + enlace al anexo—
+y del artboard se tomaron el texto y el mapa conceptual, no el encuadre.
+
+El mapa se renderizó del XD en **SVG** (1228x930) con sus 5 ramas y 30 subtemas, y sustituye
+al `sintesis.svg` del scaffold, que era de otro curso. **No tiene variante móvil** en el
+pasteboard: por eso existe el anexo descargable.
