@@ -112,8 +112,8 @@
 
     .row.align-items-center.justify-content-center.mt-4
       .col-lg-5.mb-4.mb-lg-0
-        .bg-1.p-5(data-aos="fade-down")
-          ul.lista-ul.mb-0
+        .bg-1.p-4(data-aos="fade-down")
+          ul.lista-ul.mb-0.p-3
             li
               img.lista-ul__vineta-img(src="@/assets/curso/temas/t1/vineta.svg")
               b Su sistema de rodaje
@@ -203,13 +203,12 @@
       .col-lg-8.mb-4.mb-lg-0
         .bg-4.p-4(data-aos="fade-down")
           p.mb-0 Durante las labores agrícolas, el polvo, los residuos vegetales y las variaciones de carga aumentan las exigencias sobre estos sistemas. Por ello, el operador debe conocer su función, interpretar los indicadores del tablero y reconocer cambios en el comportamiento de la máquina. La detección oportuna de anomalías permite prevenir daños y paradas imprevistas. Las revisiones e intervenciones deben realizarse según el manual técnico y el alcance de las responsabilidades del operador.
+
+        p.mt-2 La siguiente tabla resume los aspectos que requieren vigilancia durante la operación y las acciones ante una anomalía:
       .col-lg-4
         figure
           img(src="@/assets/curso/temas/t1/f5.png" style="width: 396px").m-auto
 
-    .row.mt-4
-      .col-lg-8
-        p.mb-0 La siguiente tabla resume los aspectos que requieren vigilancia durante la operación y las acciones ante una anomalía:
 
     .row.justify-content-center
       .col-lg-10
@@ -264,10 +263,10 @@
       .col-lg-10
         .bloque-ejemplo(data-aos="fade-down")
           .row.g-0.align-items-stretch
-            .col-lg-3
+            .col-lg-4
               figure.h-100.m-0
                 img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t1/f6.png")
-            .col-lg-9
+            .col-lg-8
               .p-4.p-md-5
                 figure
                   img(src="@/assets/curso/temas/t1/i-ejemplo.svg" style="width: 80px")
@@ -283,7 +282,8 @@
           h5 Figura 1.
           span Efectos del lastre en la operación del tractor
         figure(data-aos="fade-down")
-          img(src="@/assets/curso/temas/t1/figura-1.png" alt="Figura 1. Comparación de tres tractores arando con lastre insuficiente, adecuado y excesivo, indicando para cada caso el patinamiento, el consumo de combustible y el efecto sobre el suelo. Muestra que solo el lastre adecuado mantiene un patinamiento moderado con consumo óptimo y daño mínimo del suelo." style="width: 1020px").m-auto
+          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t1/figura-1-movil.png" alt="" style="width: 400px")
+          img.d-none.d-md-block(src="@/assets/curso/temas/t1/figura-1.png" alt="Figura 1. Comparación de tres tractores arando con lastre insuficiente, adecuado y excesivo, indicando para cada caso el patinamiento, el consumo de combustible y el efecto sobre el suelo. Muestra que solo el lastre adecuado mantiene un patinamiento moderado con consumo óptimo y daño mínimo del suelo." style="width: 1020px").m-auto
 
     separador
 
@@ -296,13 +296,12 @@
       .col-lg-8.mb-4.mb-lg-0
         .cajon.color-primario.p-4(data-aos="fade-down")
           p.mb-0 Conocer estas curvas permite operar de forma económica. En labores que no requieren toda la potencia, como una rastrillada liviana o el transporte, conviene aplicar la práctica de "marcha más alta y acelerador reducido": seleccionar una marcha superior y bajar las revoluciones del motor para mantener la misma velocidad de avance, siempre que el motor no se esfuerce en exceso ni emita humo negro. En labores con toma de fuerza, en cambio, las revoluciones del motor deben ajustarse para que la toma de fuerza gire a su velocidad normalizada. Muchos tractores ofrecen modos económicos de la toma de fuerza que alcanzan esa velocidad con menos revoluciones del motor.
+        
+        p.mt-2 Basado en lo anterior, se presentan las siguientes recomendaciones y precauciones para ajustar marcha y revoluciones del motor según el tipo de labor:
+
       .col-lg-4
         figure
           img(src="@/assets/curso/temas/t1/comp-16.png" style="width: 397px").m-auto
-
-    .row.mt-4
-      .col-lg-8
-        p.mb-0 Basado en lo anterior, se presentan las siguientes recomendaciones y precauciones para ajustar marcha y revoluciones del motor según el tipo de labor:
 
     .row.mt-4
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(v-for="(l, i) in labores" :key="'labor-'+i")
@@ -335,7 +334,8 @@
           h5 Figura 2.
           span Máquinas agrícolas y aprovechamiento de la potencia
         figure(data-aos="fade-down")
-          img(src="@/assets/curso/temas/t1/figura-2.svg" alt="Figura 2. Esquema que parte del concepto de máquina agrícola y lo despliega en cuatro ramas: clasificación, tecnología, potencia y tracción, cada una con tres elementos. Resume que la máquina se describe por lo que hace, el nivel tecnológico que incorpora, la forma en que entrega la potencia y cómo la transmite al suelo." style="width: 1020px").m-auto
+          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t1/figura-2-movil.svg" alt="" style="width: 400px")
+          img.d-none.d-md-block(src="@/assets/curso/temas/t1/figura-2.svg" alt="Figura 2. Esquema que parte del concepto de máquina agrícola y lo despliega en cuatro ramas: clasificación, tecnología, potencia y tracción, cada una con tres elementos. Resume que la máquina se describe por lo que hace, el nivel tecnológico que incorpora, la forma en que entrega la potencia y cómo la transmite al suelo." style="width: 1020px").m-auto
 
     p.mt-4.mb-0 Conocida la máquina que genera la potencia, el siguiente paso es estudiar los equipos e implementos que la convierten en labor y la forma de engancharlos al tractor.
 </template>

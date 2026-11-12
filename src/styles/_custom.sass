@@ -207,7 +207,7 @@ figcaption
 .tabla-a
   &.tabla--t1-1, &.tabla--t1-2
     thead
-      border-color: $color-acento-contenido
+      border: none
       background-color: $color-acento-contenido-vc
       color: $color-sistema-texto
       th
@@ -311,7 +311,7 @@ figcaption
 .tabla-a
   &.tabla--t2-3, &.tabla--t2-4
     thead
-      border-color: $color-acento-contenido
+      border: none
       background-color: $color-acento-contenido-vc
       color: $color-sistema-texto
       th
@@ -343,10 +343,11 @@ figcaption
 .tarjeta--acordion-t2
   background-color: $color-acento-botones-vc
   border-radius: 20px
-.acordion--t2
-  .acordion__item__activo .tarjeta--acordion-t2,
-  .acordion__activo .tarjeta--acordion-t2
-    background-color: $color-secundario-vc
+//- `acordion__activo` lo pone `cardClass()` en la PROPIA tarjeta, no en un ancestro: con
+//- `.acordion__activo .tarjeta--acordion-t2` la regla no casa y el ítem abierto se queda
+//- del color de los cerrados. Comprobado por CDP: los tres daban #E8D5D5.
+.tarjeta--acordion-t2.acordion__activo
+  background-color: $color-secundario-vc
 
 //- Las seis tarjetas del carrusel del 2.5 comparten el mismo fondo verde con arcos
 //- (`Trazado 1042679` + su máscara); el icono y el texto van encima, en HTML.
@@ -423,7 +424,7 @@ figcaption
 //- así que comparten modificador.
 .tabla-a.tabla--t3
   thead
-    border-color: $color-acento-contenido
+    border: none
     background-color: $color-acento-contenido-vc
     color: $color-sistema-texto
     th
@@ -458,7 +459,7 @@ figcaption
 //- TABLA 7. Divisores medidos en el PDF: x=497 y x=894.
 .tabla-a.tabla--t4
   thead
-    border-color: $color-acento-contenido
+    border: none
     background-color: $color-acento-contenido-vc
     color: $color-sistema-texto
     th
@@ -496,7 +497,7 @@ figcaption
 //- maquetan a tres columnas con el contenido del `_DI.docx`, igual que las anteriores.
 .tabla-a.tabla--t5
   thead
-    border-color: $color-acento-contenido
+    border: none
     background-color: $color-acento-contenido-vc
     color: $color-sistema-texto
     th

@@ -156,7 +156,8 @@
           h5 Figura 7.
           span Chequeo preoperacional del tractor
         figure(data-aos="fade-down")
-          img(src="@/assets/curso/temas/t5/figura-7.png" alt="Figura 7. Cuatro áreas del chequeo preoperacional del tractor: inspección exterior, niveles de fluidos, elementos de seguridad y equipos de precisión, cada una con sus tres puntos de verificación. Agrupa la revisión por momentos para que el operador no deje fuera ningún sistema antes de iniciar la jornada." style="width: 1020px").m-auto
+          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t5/figura-7-movil.svg" alt="" style="width: 400px")
+          img.d-none.d-md-block(src="@/assets/curso/temas/t5/figura-7.png" alt="Figura 7. Cuatro áreas del chequeo preoperacional del tractor: inspección exterior, niveles de fluidos, elementos de seguridad y equipos de precisión, cada una con sus tres puntos de verificación. Agrupa la revisión por momentos para que el operador no deje fuera ningún sistema antes de iniciar la jornada." style="width: 1020px").m-auto
 
     separador
 
@@ -295,7 +296,7 @@
           h5 Figura 8.
           span Ruta del alistamiento de la maquinaria
         figure(data-aos="fade-down")
-          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t5/figura-8-m.svg" alt="" style="width: 400px")
+          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t5/figura-8-movil.svg" alt="" style="width: 400px")
           img.d-none.d-md-block(src="@/assets/curso/temas/t5/figura-8.svg" alt="Figura 8. Ruta de cinco fases del alistamiento de la maquinaria: planear, inspeccionar, acoplar y ajustar, configurar, y probar y liberar. El recorrido completo deja la máquina segura, ajustada y configurada para iniciar la labor." style="width: 1020px").m-auto
 </template>
 

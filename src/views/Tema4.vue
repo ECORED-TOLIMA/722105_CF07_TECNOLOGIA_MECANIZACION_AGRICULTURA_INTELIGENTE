@@ -272,7 +272,8 @@
           h5 Figura 6.
           span Terreno, labor y tráfico de maquinaria
         figure(data-aos="fade-down")
-          img(src="@/assets/curso/temas/t4/figura-6.svg" alt="Figura 6. Esquema que parte de la labor agrícola mecanizada y la despliega en cuatro ramas: terreno, monitoreo, variabilidad y tráfico, cada una con tres elementos. Resume que la labor se planea reconociendo las condiciones del lote, midiéndolas, representando sus diferencias y organizando la circulación de la maquinaria." style="width: 1020px").m-auto
+          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t4/figura-6-movil.svg" alt="" style="width: 400px")
+          img.d-none.d-md-block(src="@/assets/curso/temas/t4/figura-6.svg" alt="Figura 6. Esquema que parte de la labor agrícola mecanizada y la despliega en cuatro ramas: terreno, monitoreo, variabilidad y tráfico, cada una con tres elementos. Resume que la labor se planea reconociendo las condiciones del lote, midiéndolas, representando sus diferencias y organizando la circulación de la maquinaria." style="width: 1020px").m-auto
 
     p.mt-4.mb-0 Conocer el terreno y la labor permite preparar la máquina de forma adecuada. El alistamiento y el uso de los manuales técnicos se estudian a continuación.
 </template>

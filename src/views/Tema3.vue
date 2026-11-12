@@ -242,7 +242,7 @@
           h5 Figura 4.
           span Precauciones en la operación de maquinaria en ladera
         figure(data-aos="fade-down")
-          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t3/figura-4-m.svg" alt="" style="width: 380px")
+          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t3/figura-4-movil.svg" alt="" style="width: 380px")
           img.d-none.d-md-block(src="@/assets/curso/temas/t3/figura-4.png" alt="Figura 4. Cinco precauciones para operar maquinaria en ladera: respetar el límite de pendiente del fabricante, ampliar la vía de las ruedas cuando el fabricante lo permita, trabajar despacio y sin giros bruscos, usar la estructura antivuelco con el cinturón abrochado y reconocer el terreno a pie. Cada medida se asocia con el riesgo que previene o reduce, desde el vuelco lateral hasta la caída en zanjas." style="width: 1020px").m-auto
 
     separador
@@ -298,7 +298,7 @@
           h5 Figura 5.
           span Ruta de selección de maquinaria agrícola
         figure(data-aos="fade-down")
-          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t3/figura-5-m.svg" alt="" style="width: 400px")
+          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t3/figura-5-movil.svg" alt="" style="width: 400px")
           img.d-none.d-md-block(src="@/assets/curso/temas/t3/figura-5.svg" alt="Figura 5. Ruta de cinco etapas para seleccionar maquinaria: definir labor y área, calcular capacidad, calcular potencia, verificar terreno y comparar costos. El recorrido completo lleva a un conjunto tractor-implemento adecuado técnica, operativa y económicamente." style="width: 1020px").m-auto
 
     p.mt-4.mb-0 Seleccionada la máquina, es necesario conocer el terreno donde trabajará y la labor que realizará, aspectos que se desarrollan en el tema siguiente.

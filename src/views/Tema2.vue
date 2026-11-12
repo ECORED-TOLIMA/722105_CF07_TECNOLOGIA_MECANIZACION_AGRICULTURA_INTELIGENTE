@@ -129,7 +129,7 @@
               .h5.mb-2 Conectado
               p.mb-0 Incorpora ISOBUS y telemetría para intercambiar datos entre equipos compatibles. Puede integrar tasa variable y registros georreferenciados para el seguimiento de las labores.
           figure.d-md-none
-            img(src="@/assets/curso/temas/t2/infografica.png" alt="").w-100
+            img(src="@/assets/curso/temas/t2/infografica-movil.png" alt="Figura. Los cuatro niveles tecnológicos de los implementos —básico, intermedio, avanzado y conectado— con sus componentes y ventajas.").w-100
 
     separador
 
@@ -186,15 +186,17 @@
                 img(src="@/assets/curso/temas/t2/ic2.svg" style="width: 84px")
             .col
               p.mb-0 El funcionamiento del conjunto está condicionado por la potencia disponible, la capacidad de levante del sistema hidráulico, la distribución del peso y la estabilidad. Incorporar más equipos aumenta las exigencias sobre el tractor y puede dificultar las maniobras. Por ello, una reducción del número de pasadas no garantiza, por sí sola, menor consumo o compactación: también deben considerarse el peso total y las condiciones del terreno.
+
+
+        p.mt-2 Además de la unión física, algunos conjuntos incorporan comunicación electrónica entre el tractor, el implemento y el terminal de control. Tecnologías como ISOBUS permiten coordinar funciones compatibles desde un mismo terminal. Esta integración complementa el enganche mecánico y puede facilitar el control y el registro de la operación, según las funcionalidades disponibles.
+
+        p.mt-2 La siguiente tabla presenta configuraciones de uso del conjunto tractor–implemento, ejemplos y sus principales ventajas:
+
       .col-lg-3
         figure
           img(src="@/assets/curso/temas/t2/f10.png" style="width: 292px").r-10.m-auto
 
-    .row.mt-4
-      .col-lg-9
-        p.mb-0 Además de la unión física, algunos conjuntos incorporan comunicación electrónica entre el tractor, el implemento y el terminal de control. Tecnologías como ISOBUS permiten coordinar funciones compatibles desde un mismo terminal. Esta integración complementa el enganche mecánico y puede facilitar el control y el registro de la operación, según las funcionalidades disponibles.
 
-    p.mt-4 La siguiente tabla presenta configuraciones de uso del conjunto tractor–implemento, ejemplos y sus principales ventajas:
 
     .row.justify-content-center
       .col-lg-10
@@ -235,16 +237,16 @@
       .col-lg-10
         .bloque-ejemplo(data-aos="fade-down")
           .row.g-0.align-items-stretch
-            .col-lg-3
+            .col-lg-4
               figure.h-100.m-0
                 img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t2/f11.png")
-            .col-lg-9
+            .col-lg-8
               .p-4.p-md-5
                 figure
                   img(src="@/assets/curso/temas/t2/ic3.svg" style="width: 80px")
                 p.mt-3.mb-0
                   b Ejemplo resuelto: ahorro por enganche combinado
-                p.mb-0 Para preparar y sembrar 100 ha se pueden hacer dos pasadas separadas: rastrillada a 1,8 ha/h (55,6 h) y siembra a 2,0 ha/h (50 h), total 105,6 h. Con un conjunto combinado de rastra y sembradora, la capacidad baja a 1,5 ha/h, pero se requieren 100 / 1,5 = 66,7 h. El ahorro es de 38,9 h de tractor y operario, además de una pasada menos sobre el suelo. Si el tractor cuesta $140.000 por hora, el ahorro supera los $5.400.000, siempre que el tractor tenga la potencia suficiente para el conjunto.
+                p.mt-2 Para preparar y sembrar 100 ha se pueden hacer dos pasadas separadas: rastrillada a 1,8 ha/h (55,6 h) y siembra a 2,0 ha/h (50 h), total 105,6 h. Con un conjunto combinado de rastra y sembradora, la capacidad baja a 1,5 ha/h, pero se requieren 100 / 1,5 = 66,7 h. El ahorro es de 38,9 h de tractor y operario, además de una pasada menos sobre el suelo. Si el tractor cuesta $140.000 por hora, el ahorro supera los $5.400.000, siempre que el tractor tenga la potencia suficiente para el conjunto.
 
     separador
 
@@ -308,7 +310,7 @@
           h5 Figura 3.
           span Ruta para enganchar y ajustar un implemento
         figure(data-aos="fade-down")
-          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t2/figura-3-m.svg" alt="" style="width: 400px")
+          img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t2/figura-3-movil.svg" alt="" style="width: 400px")
           img.d-none.d-md-block(src="@/assets/curso/temas/t2/figura-3.svg" alt="Figura 3. Ruta de cinco etapas para preparar el conjunto tractor–implemento: verificar compatibilidad, acoplar, conectar sistemas, nivelar y calibrar, y probar. Indica que el recorrido completo deja el conjunto listo para una labor uniforme y segura." style="width: 1020px").m-auto
 
     p.mt-4.mb-0 Enganchar bien requiere, antes, haber elegido el tractor y el implemento adecuados. La selección de máquinas y la maquinaria para ladera son el tema siguiente.
