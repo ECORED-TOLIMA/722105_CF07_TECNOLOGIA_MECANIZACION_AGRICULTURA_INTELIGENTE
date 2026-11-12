@@ -311,10 +311,12 @@ Los mismos comentarios dicen qué componente pide el instruccional. Comparado co
 | 5.5 | Tarjetas | `SlyderF` | ok |
 | **5.6** | **Pestañas** | `LineaTiempoD` | **revisar** |
 
-**No se ha cambiado ninguno todavía.** El motivo: lo maquetado reproduce lo que el `.xd`
-DIBUJA y lo que el PDF muestra, con las tiras de `docs/par-*.png` casi calcadas. Cambiar siete
-bloques a pestañas, pasos y sliders los alejaría del diseño firmado.
+**DECISIÓN: manda el XD. Los siete bloques se quedan como están.**
 
-Es decir, **el DOCX y el XD piden cosas distintas en siete bloques**, y eso lo decide el equipo,
-no la maquetación. Si manda el DI, son siete bloques a rehacer; si manda el XD, queda como está
-y conviene que el instruccional lo sepa.
+El motivo: lo maquetado reproduce lo que el `.xd` DIBUJA y lo que el PDF muestra, con las
+tiras de `docs/par-*.png` casi calcadas. Pasar esos siete bloques a pestañas, pasos y sliders
+los alejaría del diseño firmado.
+
+Queda anotado porque **el DOCX y el XD piden cosas distintas en siete bloques**, y el
+instruccional debería saberlo: si en una revisión posterior se decide que manda el DI, son
+esos siete los que hay que rehacer, y aquí está la lista.
