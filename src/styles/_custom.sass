@@ -430,3 +430,45 @@ figcaption
     width: 20.2%
   th:nth-child(2), td:nth-child(2)
     width: 41%
+
+//- TEMA 4 ------------------------------------------------------------------
+//- La lista rayada del 4.1: seis filas de 1020x100 que alternan #EEFFDB y #F8EDD3, con
+//- las esquinas redondeadas sólo arriba en la primera y abajo en la última (el XD les da
+//- r=[20,20,0,0] y r=[0,0,20,20]).
+.lista-rayada
+  overflow: hidden
+  border-radius: 20px
+  &__fila
+    background-color: $color-primario-vc
+    &:nth-child(even)
+      background-color: $color-secundario-vc
+
+//- TABLA 7. Divisores medidos en el PDF: x=497 y x=894.
+.tabla-a.tabla--t4
+  thead
+    border-color: $color-acento-contenido
+    background-color: $color-acento-contenido-vc
+    color: $color-sistema-texto
+    th
+      border: none
+  tbody
+    tr
+      background-color: $color-sistema-h
+      &:nth-child(even)
+        background-color: $white
+    td
+      border: none
+      padding: 17px 20px
+    td:first-child, td:nth-child(2)
+      border-right: 1px solid #AFAFAF
+  th:first-child, td:first-child
+    width: 20.2%
+  th:nth-child(2), td:nth-child(2)
+    width: 39%
+
+//- Las tarjetas del 4.7 llevan el icono montado sobre el borde superior: eso es
+//- `.tarjeta-avatar` del kit, no una clase nueva. El kit deja su `.tarjeta` en
+//- `inline-block`, así que sin el 100 % la más corta de la fila queda estrecha.
+.tarjeta-avatar
+  .tarjeta
+    width: 100%

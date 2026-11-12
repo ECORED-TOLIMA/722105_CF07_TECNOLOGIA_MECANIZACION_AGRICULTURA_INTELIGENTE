@@ -136,3 +136,26 @@ y x=914 medidos en el PDF), así que comparten modificador.
 
 Con esto, **las seis tablas del curso vienen vacías en el diseño**. Si el instruccional cambia
 alguna, hay que actualizarla en la vista correspondiente.
+
+## 14. Tema 4: el XD no dibuja el bloque «Observación y mediciones de campo» (4.2)
+
+El `_DI.docx` abre el 4.2 con un subapartado **«Observación y mediciones de campo»** y tres
+párrafos (el recorrido del lote, la prueba manual de humedad y el penetrómetro), más la frase
+«Las siguientes son las herramientas de monitoreo y representación espacial:». **El XD pasa
+directamente** del párrafo de entrada a la línea de tiempo con las cinco herramientas.
+
+Se incluyeron, por el mismo criterio de la nota 8: el DI es la fuente del texto y dejar fuera
+contenido del documento es peor que una pantalla algo más larga. Si el diseñador los quitó a
+propósito, se borran.
+
+## 15. Tema 4: el segundo video tampoco trae URL
+
+El 4.7 remite a `722105_CF07_Guion_TEC_Video_01` y el XD vuelve a dibujar «Espacio para
+video» sin enlace. Queda, igual que la Introducción, con el embed del scaffold —**«Cronograma
+para el plan BPG», de otro curso**—. Son **dos** videos por sustituir, no uno.
+
+## 16. Tema 4: otra frase repetida en el DI (4.2)
+
+«La combinación de estas técnicas permite obtener una caracterización más completa que la
+utilización de una sola fuente de información.» aparece dos veces seguidas en el `_DI.docx`.
+Va una vez, como en los temas 1, 2 y 3.
