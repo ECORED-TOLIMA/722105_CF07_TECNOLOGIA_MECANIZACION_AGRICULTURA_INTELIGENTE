@@ -215,3 +215,46 @@ y del artboard se tomaron el texto y el mapa conceptual, no el encuadre.
 El mapa se renderizó del XD en **SVG** (1228x930) con sus 5 ramas y 30 subtemas, y sustituye
 al `sintesis.svg` del scaffold, que era de otro curso. **No tiene variante móvil** en el
 pasteboard: por eso existe el anexo descargable.
+
+## 22. Revisión final de cinco puntos — resultados
+
+Ejecutada sobre las diez pantallas. Los cinco puntos del procedimiento, con número:
+
+| Punto | Herramienta | Resultado |
+|---|---|---|
+| 1. Colores contra el XD | `comparar_elementos.py` | **ninguno fuera** en los cinco temas |
+| 2. Distribución y textos | `comparar_elementos.py` + `verificar_textos.py` | sin descuadres tras corregir |
+| 3. Iconos | `verificar_iconos.py` | 0 iconos ganando en más de un hueco |
+| 4. Componentes | CDP | chevrones, acordeón y slider en `#982C03` |
+| 5. Animaciones de portada | CDP | `running`, infinitas, alternas, 2,8 s y 2,5 s |
+
+Denominadores comprobados antes de creerse ningún «ninguno»: 1.099 / 312 / 1.035 / 432 / 1.296
+rects del XD contra 38-43 cajas con fondo por pantalla.
+
+**Además:** 0 desbordes a 360 px (11 rutas), 0 elementos `[data-aos]` sin animar, 13 rutas sin
+overlay de error, los `.cajon` cuadran con las pestañas de 25x8 del XD en los cinco temas
+(3/3, 3/3, 2/2, 4/4, 3/3) y los 42 párrafos de cada pantalla rompen al ancho de su `frame`.
+
+### Lo que encontró y se corrigió
+
+1. **El número del tema y el icono de la Introducción iban en blanco.** El XD los escribe en
+   `#12263F`. Afectaba a las seis pantallas con `.titulo-principal`.
+2. **Las listas no tenían sangría francesa.** La segunda línea caía bajo el icono en vez de
+   bajo la primera letra. 32 px medidos del XD. Afectaba al curso entero.
+3. **Las tarjetas del 1.2**: icono alineado arriba en vez de centrado, y esquinas redondeadas
+   donde el inventario las lista `SIN r`.
+4. **Los iconos de las tarjetas con hover estaban cruzados.** El XD dibuja la cuarta tarjeta
+   ya en estado *over*, así que su icono del artboard es el de hover y el normal está en el
+   pasteboard; en las otras tres, al revés. Ahora cada tarjeta lleva su pareja y se cruzan con
+   `opacity`. El fondo del hover es `#F8EDD3`, no el secundario a plena fuerza.
+5. **Un color mal**: la caja del 1.4 es `#EEFFDB` y estaba en `#F8EDD3`.
+6. **Diez fotos sin el radio de su máscara.** El pipeline las rasteriza cuadradas aunque el XD
+   las redondee: el radio va en el `img`. Temas 2, 3, 4 y 5.
+7. **Los paneles del 3.2 y del 4.5 no son iguales entre sí** en el XD (299/315/315/301 y
+   405/419/405) y estaban a partes iguales.
+8. **La banda del 2.5** se iba 28 px por los gutters de la fila.
+
+### Lo que queda abierto
+
+Las **diez imágenes de la actividad** (nota 19) y los **dos videos** sin URL (notas 5 y 15).
+Las dos cosas dependen del cliente, no de la maquetación.
