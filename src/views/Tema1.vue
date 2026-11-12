@@ -335,7 +335,7 @@
           span Máquinas agrícolas y aprovechamiento de la potencia
         figure(data-aos="fade-down")
           img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t1/figura-2-movil.svg" alt="" style="width: 400px")
-          img.d-none.d-md-block(src="@/assets/curso/temas/t1/figura-2.svg" alt="Figura 2. Esquema que parte del concepto de máquina agrícola y lo despliega en cuatro ramas: clasificación, tecnología, potencia y tracción, cada una con tres elementos. Resume que la máquina se describe por lo que hace, el nivel tecnológico que incorpora, la forma en que entrega la potencia y cómo la transmite al suelo." style="width: 1020px").m-auto
+          img.d-none.d-md-block(src="@/assets/curso/temas/t1/figura-2.svg" alt="Figura 2 que resume los principales conceptos sobre las máquinas agrícolas mediante un esquema de clasificación, tecnología, potencia y tracción, con ejemplos de cada categoría." style="width: 1020px").m-auto
 
     p.mt-4.mb-0 Conocida la máquina que genera la potencia, el siguiente paso es estudiar los equipos e implementos que la convierten en labor y la forma de engancharlos al tractor.
 </template>

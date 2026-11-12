@@ -274,3 +274,47 @@ alt redactado, de dos frases, según la regla de la casa.
 
 El cliente entregó las diez. Ya no hay duplicados: **10 ficheros, 10 imágenes distintas**
 referenciadas, una por cada pregunta que muestra el kit. La nota 19 queda cerrada.
+
+## 25. Los textos alternativos están en los COMENTARIOS de Word del DI
+
+Corrección de la nota 23: no están «sólo en el pasteboard». El `_DI.docx` trae **38
+comentarios** de Word anclados a cada figura, y ahí están los nueve textos alternativos
+sugeridos. `docx_text.py` lee `word/document.xml` y los comentarios viven en
+`word/comments.xml`, así que se perdían enteros.
+
+Se copian **sin el rótulo «Texto alternativo:»**. Las nueve figuras del curso usan ya el
+sugerido, incluidas las dos que yo había dado por no sugeridas: la **Figura 2** del Tema 1 y
+el **mapa de la Síntesis**, que sólo están en el DOCX y no en el pasteboard.
+
+Herramienta nueva: **`scripts/docx_comments.py`**, que los vuelca con el subtema al que están
+anclados. Se ejecuta con el paso 0, no al final.
+
+## 26. ⚠️ El DI nombra el COMPONENTE de cada bloque — y en siete no coincide
+
+Los mismos comentarios dicen qué componente pide el instruccional. Comparado con lo maquetado:
+
+| Subtema | El DI pide | Está maquetado como | |
+|---|---|---|---|
+| 1.2 | Tarjetas (x2) | 6 tarjetas + caja de lista | ok |
+| **1.3** | **Pestañas** | `LineaTiempoD` | **revisar** |
+| 2.2 | Slider · Puntos calientes | `SlyderA` · `ImagenInfografica` | ok |
+| 2.3 | Acordeón | `AcordionA` | ok |
+| **2.5** | **Pasos** + Tarjetas | lista con viñetas + `SlyderF` | **revisar** |
+| **3.2** | **Slider** | 4 paneles pegados | **revisar** |
+| 3.6 | Acordeón | `AcordionA` | ok |
+| **4.1** | **Tarjetas** | lista rayada de 6 filas | **revisar** |
+| **4.2** | **Pestañas** | `LineaTiempoD` | **revisar** |
+| 4.4 | Puntos calientes | `ImagenInfografica` | ok |
+| **4.5** | **Slider** | 3 paneles pegados | **revisar** |
+| 4.7 | Tarjetas | `.tarjeta-avatar` | ok |
+| **5.2** | **Pasos** | lista de fases | **revisar** |
+| 5.5 | Tarjetas | `SlyderF` | ok |
+| **5.6** | **Pestañas** | `LineaTiempoD` | **revisar** |
+
+**No se ha cambiado ninguno todavía.** El motivo: lo maquetado reproduce lo que el `.xd`
+DIBUJA y lo que el PDF muestra, con las tiras de `docs/par-*.png` casi calcadas. Cambiar siete
+bloques a pestañas, pasos y sliders los alejaría del diseño firmado.
+
+Es decir, **el DOCX y el XD piden cosas distintas en siete bloques**, y eso lo decide el equipo,
+no la maquetación. Si manda el DI, son siete bloques a rehacer; si manda el XD, queda como está
+y conviene que el instruccional lo sepa.
