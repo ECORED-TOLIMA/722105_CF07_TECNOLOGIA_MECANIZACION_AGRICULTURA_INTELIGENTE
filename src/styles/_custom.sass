@@ -384,3 +384,49 @@ figcaption
     border-color: $color-acento-botones
     i
       color: $white
+
+//- TEMA 3 ------------------------------------------------------------------
+//- Los cuatro paneles de potencia del 3.2, con los rellenos del XD. El radio de las
+//- esquinas exteriores lo pone `.tarjeta--container`, que es lo que el catálogo usa para
+//- una fila de tarjetas pegadas.
+.bg-6
+  background-color: $color-secundario-v
+.bg-7
+  background-color: $color-acento-contenido-v
+.bg-8
+  background-color: $color-terciario
+
+//- El 3.1 repite el `bloque-texto-g`. Aquí el verde oscuro del XD no cubre todo el ancho
+//- (va de x=495 a 1414), pero la foto tapa la mitad izquierda y el resultado es el mismo.
+.bloque-texto-g--t3
+  background-color: $color-primario-vo
+  min-height: 267px
+
+//- La caja del 3.1 lleva radio 10 en el XD (`Rectángulo 461489`), al contrario que las
+//- demás cajas planas del curso, que van cuadradas.
+.r-10
+  border-radius: 10px
+
+//- TABLAS del Tema 3. Las dos comparten divisores: x=497 y x=914 (medidos en el PDF),
+//- así que comparten modificador.
+.tabla-a.tabla--t3
+  thead
+    border-color: $color-acento-contenido
+    background-color: $color-acento-contenido-vc
+    color: $color-sistema-texto
+    th
+      border: none
+  tbody
+    tr
+      background-color: $color-sistema-h
+      &:nth-child(even)
+        background-color: $white
+    td
+      border: none
+      padding: 17px 20px
+    td:first-child, td:nth-child(2)
+      border-right: 1px solid #AFAFAF
+  th:first-child, td:first-child
+    width: 20.2%
+  th:nth-child(2), td:nth-child(2)
+    width: 41%

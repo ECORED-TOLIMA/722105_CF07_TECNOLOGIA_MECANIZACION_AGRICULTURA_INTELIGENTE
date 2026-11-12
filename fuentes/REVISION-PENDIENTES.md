@@ -127,3 +127,12 @@ Divisores medidos en el PDF: Tabla 3 en x=582 y x=894; Tabla 4 en x=497 y x=851.
 El `_DI.docx` repite dos veces seguidas, sin separación, «Esta relación es general: la
 categoría no debe determinarse únicamente por la potencia o el tamaño del tractor…». El XD la
 pinta una vez y así se maquetó, igual que la repetición del 1.3.
+
+## 13. Tema 3: las tablas 5 y 6 repiten el patrón
+
+Igual que en los temas 1 y 2: el XD las dibuja vacías con la nota rosa «Completar tabla con
+doc de instruccional» y el contenido sale del `_DI.docx`. Las dos comparten divisores (x=497
+y x=914 medidos en el PDF), así que comparten modificador.
+
+Con esto, **las seis tablas del curso vienen vacías en el diseño**. Si el instruccional cambia
+alguna, hay que actualizarla en la vista correspondiente.
