@@ -1,17 +1,21 @@
 @use 'variables' as *
+//- Las dos insignias de 153x153 del hero. El pasteboard del .xd las rotula
+//- «DESARROLLADORES / Flotar verticalmente en diferentes tiempos», de ahí los dos
+//- tiempos distintos. Posiciones medidas sobre la columna de la ilustración del XD
+//- (x 857..1464, y 100..659): deco-1 en (857,202) y deco-2 en (1238,482), 153 px.
 .banner-principal-decorativo
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 18.4%
+    left: 0
+    width: 27.6%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
+    top: 67.84%
+    left: 68.73%
+    width: 27.6%
 
 
 @keyframes float1
@@ -21,16 +25,25 @@
   100%
     transform: translateY(0px)
 
+//- Medidas del hero sobre el panel de 1328 del XD. La fila reparte el sobrante entre las
+//- dos columnas (space-around), así que el ancho de ésta mueve la ilustración a razón de
+//- 1/4: 42,27 % deja la ilustración en x=857, que es donde la pone el XD. El texto arranca
+//- en x=242 y su `text.frame.width` es 490, que es lo que parte el título en dos líneas.
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 42.27% !important
+  padding-left: 3.94% !important
+  > div
+    max-width: 98.58%
 .banner-principal__img 
   padding-bottom: 0 !important;
 //.banner-principal__row .banner-principal__img 
 //    width: 33%;
     
+//- El scaffold fuerza el texto del hero a blanco. Aquí el fondo es verde claro y el XD
+//- escribe el título y la descripción en #12263F (muestreado también en el PDF).
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+  color: $color-sistema-texto !important
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
