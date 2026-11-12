@@ -210,16 +210,16 @@
       .col-lg-10
         .bloque-ejemplo(data-aos="fade-down")
           .row.g-0.align-items-stretch
-            .col-lg-3
+            .col-lg-4
               figure.h-100.m-0
                 img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t4/f5.png")
-            .col-lg-9
+            .col-lg-8
               .p-4.p-md-5
                 figure
                   img(src="@/assets/curso/temas/t4/ic1.svg" style="width: 80px")
                 p.mt-3.mb-0
                   b Ejemplo resuelto: área pisada con y sin control de tráfico
-                p.mb-0 En un lote de 10 ha se usan en la temporada un tractor con rastra, un tractor con sembradora, una fumigadora y una cosechadora con un vagón. Sin control, las huellas de todas las máquinas cubren en conjunto cerca del 45 % del lote, porque cada una circula por lugares distintos. Con tráfico controlado y un ancho común de trabajo de 9 m con carriles de 2 huellas de 0,6 m, el área pisada es 1,2 / 9 × 100 = 13,3 % del lote, siempre en los mismos lugares. El resto del suelo queda libre de compactación por ruedas.
+                p.mt-2 En un lote de 10 ha se usan en la temporada un tractor con rastra, un tractor con sembradora, una fumigadora y una cosechadora con un vagón. Sin control, las huellas de todas las máquinas cubren en conjunto cerca del 45 % del lote, porque cada una circula por lugares distintos. Con tráfico controlado y un ancho común de trabajo de 9 m con carriles de 2 huellas de 0,6 m, el área pisada es 1,2 / 9 × 100 = 13,3 % del lote, siempre en los mismos lugares. El resto del suelo queda libre de compactación por ruedas.
 
     separador
 
@@ -273,7 +273,7 @@
           span Terreno, labor y tráfico de maquinaria
         figure(data-aos="fade-down")
           img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t4/figura-6-movil.svg" alt="" style="width: 400px")
-          img.d-none.d-md-block(src="@/assets/curso/temas/t4/figura-6.svg" alt="Figura 6. Esquema que parte de la labor agrícola mecanizada y la despliega en cuatro ramas: terreno, monitoreo, variabilidad y tráfico, cada una con tres elementos. Resume que la labor se planea reconociendo las condiciones del lote, midiéndolas, representando sus diferencias y organizando la circulación de la maquinaria." style="width: 1020px").m-auto
+          img.d-none.d-md-block(src="@/assets/curso/temas/t4/figura-6.svg" alt="Figura 6 que contiene un esquema que relaciona la labor agrícola mecanizada con cuatro aspectos: terreno, monitoreo, variabilidad y tráfico. Cada uno incluye variables, herramientas o modalidades que permiten organizar el trabajo de la maquinaria en el lote." style="width: 1020px").m-auto
 
     p.mt-4.mb-0 Conocer el terreno y la labor permite preparar la máquina de forma adecuada. El alistamiento y el uso de los manuales técnicos se estudian a continuación.
 </template>

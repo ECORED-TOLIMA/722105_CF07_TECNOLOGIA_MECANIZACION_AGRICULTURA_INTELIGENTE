@@ -283,7 +283,7 @@
           span Efectos del lastre en la operación del tractor
         figure(data-aos="fade-down")
           img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t1/figura-1-movil.png" alt="" style="width: 400px")
-          img.d-none.d-md-block(src="@/assets/curso/temas/t1/figura-1.png" alt="Figura 1. Comparación de tres tractores arando con lastre insuficiente, adecuado y excesivo, indicando para cada caso el patinamiento, el consumo de combustible y el efecto sobre el suelo. Muestra que solo el lastre adecuado mantiene un patinamiento moderado con consumo óptimo y daño mínimo del suelo." style="width: 1020px").m-auto
+          img.d-none.d-md-block(src="@/assets/curso/temas/t1/figura-1.png" alt="Figura 1 que compara tres condiciones de lastre del tractor: insuficiente, con alto patinamiento y daño por deslizamiento; adecuado, con patinamiento moderado y consumo óptimo; y excesivo, con patinamiento muy bajo, mayor consumo y compactación del suelo." style="width: 1020px").m-auto
 
     separador
 

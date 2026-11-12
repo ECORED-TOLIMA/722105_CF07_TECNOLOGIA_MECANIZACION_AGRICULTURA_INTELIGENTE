@@ -25,13 +25,13 @@
         p Seleccionar maquinaria es elegir, entre las alternativas disponibles, las máquinas, equipos y herramientas que permiten realizar las labores requeridas con la calidad, oportunidad y costo adecuados. Su función es relacionar la capacidad de los equipos con las necesidades del sistema productivo, considerando el área, los cultivos, el calendario de labores, las características del suelo, la pendiente y los recursos disponibles.
         .bg-1.r-10.p-4.mt-4(data-aos="fade-down")
           p.mb-0 Una selección adecuada permite evitar tanto la adquisición de equipos con capacidad innecesaria como el uso de maquinaria insuficiente para completar el trabajo previsto. La decisión debe considerar el conjunto tractor–implemento, pues sus componentes necesitan ser compatibles y responder a las mismas condiciones de operación.
+
+        p.mt-2 Para organizar el análisis, la selección puede abordarse según su objeto: tractor, implemento o conjunto; según la alternativa de acceso: compra, alquiler o contratación del servicio; y según los criterios de evaluación: técnicos, operativos y económicos. Estos enfoques se complementan y permiten comparar las opciones de acuerdo con las necesidades de cada explotación agropecuaria.
+
       .col-lg-3
         figure
           img(src="@/assets/curso/temas/t3/f2.png" style="width: 292px").r-10.m-auto
 
-    .row.mt-4
-      .col-lg-9
-        p.mb-0 Para organizar el análisis, la selección puede abordarse según su objeto: tractor, implemento o conjunto; según la alternativa de acceso: compra, alquiler o contratación del servicio; y según los criterios de evaluación: técnicos, operativos y económicos. Estos enfoques se complementan y permiten comparar las opciones de acuerdo con las necesidades de cada explotación agropecuaria.
 
     .row.align-items-center.mt-4
       .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-block
@@ -111,16 +111,16 @@
       .col-lg-10
         .bloque-ejemplo(data-aos="fade-down")
           .row.g-0.align-items-stretch
-            .col-lg-3
+            .col-lg-4
               figure.h-100.m-0
                 img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t3/f4.png")
-            .col-lg-9
+            .col-lg-8
               .p-4.p-md-5
                 figure
                   img(src="@/assets/curso/temas/t3/ic2.svg" style="width: 80px")
                 p.mt-3.mb-0
                   b Ejemplo resuelto: potencia requerida para un subsolador
-                p.mb-0 Un subsolador de 5 cuerpos requiere una fuerza de tiro de 20 kN en un suelo franco a la profundidad deseada. Velocidad de trabajo: 6 km/h, equivalente a 1,67 m/s. Potencia a la barra = 20 kN × 1,67 m/s = 33,4 kW. Si en ese suelo la potencia a la barra es aproximadamente el 55 % de la potencia del motor, la potencia requerida en el motor es 33,4 / 0,55 = 60,7 kW, es decir, unos 81 hp. Se recomienda un tractor con algo de reserva, por ejemplo, de 90 a 100 hp, para no trabajar al límite.
+                p.mt-2 Un subsolador de 5 cuerpos requiere una fuerza de tiro de 20 kN en un suelo franco a la profundidad deseada. Velocidad de trabajo: 6 km/h, equivalente a 1,67 m/s. Potencia a la barra = 20 kN × 1,67 m/s = 33,4 kW. Si en ese suelo la potencia a la barra es aproximadamente el 55 % de la potencia del motor, la potencia requerida en el motor es 33,4 / 0,55 = 60,7 kW, es decir, unos 81 hp. Se recomienda un tractor con algo de reserva, por ejemplo, de 90 a 100 hp, para no trabajar al límite.
 
     p.mt-4 La potencia disponible varía según el punto del tractor donde se aprovecha. A continuación, se describen los principales tipos, dónde se miden y los factores que influyen en ellos:
 
@@ -151,16 +151,16 @@
       .col-lg-10
         .bloque-ejemplo(data-aos="fade-down")
           .row.g-0.align-items-stretch
-            .col-lg-3
+            .col-lg-4
               figure.h-100.m-0
                 img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t3/f6.png")
-            .col-lg-9
+            .col-lg-8
               .p-4.p-md-5
                 figure
                   img(src="@/assets/curso/temas/t3/ic3.svg" style="width: 80px")
                 p.mt-3.mb-0
                   b Ejemplo resuelto: ¿alcanza el equipo en la ventana de tiempo?
-                p.mb-0 Se deben rastrillar 240 ha en 8 días, con jornadas efectivas de 9 horas. Rastra de 3,6 m a 7 km/h con eficiencia de campo del 80 %. Capacidad efectiva = 3,6 × 7 × 0,80 / 10 = 2,02 ha/h. Capacidad en la ventana = 2,02 × 9 × 8 = 145 ha. No alcanza: faltan 95 ha. Opciones: un segundo conjunto, una rastra más ancha con un tractor de mayor potencia o turnos adicionales con relevo de operador.
+                p.mt-2 Se deben rastrillar 240 ha en 8 días, con jornadas efectivas de 9 horas. Rastra de 3,6 m a 7 km/h con eficiencia de campo del 80 %. Capacidad efectiva = 3,6 × 7 × 0,80 / 10 = 2,02 ha/h. Capacidad en la ventana = 2,02 × 9 × 8 = 145 ha. No alcanza: faltan 95 ha. Opciones: un segundo conjunto, una rastra más ancha con un tractor de mayor potencia o turnos adicionales con relevo de operador.
 
     separador
 
@@ -223,14 +223,12 @@
       .col-lg-9.mb-4.mb-lg-0
         p La operación en ladera exige evaluar previamente la pendiente, las condiciones del suelo y la estabilidad del conjunto tractor–implemento. Aunque el trabajo siguiendo las curvas de nivel puede contribuir a reducir la erosión, puede aumentar el riesgo de vuelco lateral. Por ello, la dirección de los recorridos debe establecerse conforme a las condiciones del terreno y las instrucciones del fabricante.
         .cajon.color-primario.p-4.mt-4(data-aos="fade-down")
-          p.mb-0 Las aplicaciones pueden incluir preparación de suelos, corte de vegetación, aplicación de productos y transporte de insumos y cosechas, siempre con equipos adecuados para cada labor. Cuando la pendiente o las condiciones del terreno excedan los límites de operación, deben considerarse alternativas manuales u otras soluciones adaptadas, junto con prácticas de conservación del suelo.
+          p.mb-0 Las precauciones incluyen reducir la velocidad, evitar giros bruscos, mantener los implementos a la altura indicada y reconocer zanjas, piedras y cambios de pendiente. La vía de las ruedas puede ampliarse cuando el diseño y el fabricante lo permitan. En tractores equipados con estructura de protección antivuelco, esta debe mantenerse en su posición de protección y utilizarse junto con el cinturón de seguridad.
+
+        p.mt-2 Las aplicaciones pueden incluir preparación de suelos, corte de vegetación, aplicación de productos y transporte de insumos y cosechas, siempre con equipos adecuados para cada labor. Cuando la pendiente o las condiciones del terreno excedan los límites de operación, deben considerarse alternativas manuales u otras soluciones adaptadas, junto con prácticas de conservación del suelo.
       .col-lg-3
         figure
           img(src="@/assets/curso/temas/t3/f7.png" style="width: 292px").m-auto
-
-    .row.mt-4
-      .col-lg-9
-        p.mb-0 Las precauciones incluyen reducir la velocidad, evitar giros bruscos, mantener los implementos a la altura indicada y reconocer zanjas, piedras y cambios de pendiente. La vía de las ruedas puede ampliarse cuando el diseño y el fabricante lo permitan. En tractores equipados con estructura de protección antivuelco, esta debe mantenerse en su posición de protección y utilizarse junto con el cinturón de seguridad.
 
     .row.mt-4
       .col-lg-9
@@ -243,7 +241,7 @@
           span Precauciones en la operación de maquinaria en ladera
         figure(data-aos="fade-down")
           img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t3/figura-4-movil.svg" alt="" style="width: 380px")
-          img.d-none.d-md-block(src="@/assets/curso/temas/t3/figura-4.png" alt="Figura 4. Cinco precauciones para operar maquinaria en ladera: respetar el límite de pendiente del fabricante, ampliar la vía de las ruedas cuando el fabricante lo permita, trabajar despacio y sin giros bruscos, usar la estructura antivuelco con el cinturón abrochado y reconocer el terreno a pie. Cada medida se asocia con el riesgo que previene o reduce, desde el vuelco lateral hasta la caída en zanjas." style="width: 1020px").m-auto
+          img.d-none.d-md-block(src="@/assets/curso/temas/t3/figura-4.svg" alt="Figura 4 que ilustra cinco medidas para prevenir el vuelco del tractor: respetar el límite de pendiente del fabricante, ampliar la vía de las ruedas cuando esté permitido, trabajar despacio y sin giros bruscos, usar la estructura de protección contra vuelcos (ROPS) con el cinturón abrochado y reconocer el terreno a pie para identificar zanjas y obstáculos." style="width: 1020px").m-auto
 
     separador
 
@@ -272,16 +270,16 @@
       .col-lg-10
         .bloque-ejemplo(data-aos="fade-down")
           .row.g-0.align-items-stretch
-            .col-lg-3
+            .col-lg-4
               figure.h-100.m-0
                 img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t3/f13.png")
-            .col-lg-9
+            .col-lg-8
               .p-4.p-md-5
                 figure
                   img(src="@/assets/curso/temas/t3/ic4.svg" style="width: 80px")
                 p.mt-3.mb-0
                   b Ejemplo resuelto: área de indiferencia entre comprar y contratar
-                p.mb-0 Una sembradora propia tiene costos fijos anuales de $18.000.000 y un costo variable de $35.000 por hectárea (incluido el tractor por hora). El servicio contratado cuesta $95.000 por hectárea. El área de indiferencia se obtiene cuando 18.000.000 + 35.000 × A = 95.000 × A, es decir, A = 18.000.000 / (95.000 − 35.000) = 300 ha. Si la finca siembra menos de 300 ha al año, conviene contratar; si siembra más, la compra resulta más económica, siempre que se cuente con operadores y capacidad de mantenimiento.
+                p.mt-2 Una sembradora propia tiene costos fijos anuales de $18.000.000 y un costo variable de $35.000 por hectárea (incluido el tractor por hora). El servicio contratado cuesta $95.000 por hectárea. El área de indiferencia se obtiene cuando 18.000.000 + 35.000 × A = 95.000 × A, es decir, A = 18.000.000 / (95.000 − 35.000) = 300 ha. Si la finca siembra menos de 300 ha al año, conviene contratar; si siembra más, la compra resulta más económica, siempre que se cuente con operadores y capacidad de mantenimiento.
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -299,7 +297,7 @@
           span Ruta de selección de maquinaria agrícola
         figure(data-aos="fade-down")
           img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t3/figura-5-movil.svg" alt="" style="width: 400px")
-          img.d-none.d-md-block(src="@/assets/curso/temas/t3/figura-5.svg" alt="Figura 5. Ruta de cinco etapas para seleccionar maquinaria: definir labor y área, calcular capacidad, calcular potencia, verificar terreno y comparar costos. El recorrido completo lleva a un conjunto tractor-implemento adecuado técnica, operativa y económicamente." style="width: 1020px").m-auto
+          img.d-none.d-md-block(src="@/assets/curso/temas/t3/figura-5.svg" alt="Figura 5 que contiene una secuencia de cinco pasos para seleccionar el conjunto tractor–implemento: definir la labor y el área, calcular la capacidad, calcular la potencia, verificar el terreno y comparar costos; con el fin de obtener una selección adecuada técnica, operativa y económicamente." style="width: 1020px").m-auto
 
     p.mt-4.mb-0 Seleccionada la máquina, es necesario conocer el terreno donde trabajará y la labor que realizará, aspectos que se desarrollan en el tema siguiente.
 </template>

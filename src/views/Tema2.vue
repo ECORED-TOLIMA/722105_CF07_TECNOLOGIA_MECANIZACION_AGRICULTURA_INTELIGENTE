@@ -311,7 +311,7 @@
           span Ruta para enganchar y ajustar un implemento
         figure(data-aos="fade-down")
           img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t2/figura-3-movil.svg" alt="" style="width: 400px")
-          img.d-none.d-md-block(src="@/assets/curso/temas/t2/figura-3.svg" alt="Figura 3. Ruta de cinco etapas para preparar el conjunto tractor–implemento: verificar compatibilidad, acoplar, conectar sistemas, nivelar y calibrar, y probar. Indica que el recorrido completo deja el conjunto listo para una labor uniforme y segura." style="width: 1020px").m-auto
+          img.d-none.d-md-block(src="@/assets/curso/temas/t2/figura-3.svg" alt="Figura 3 que presenta un diagrama de cinco pasos para preparar el conjunto tractor-implemento: verificar compatibilidad, acoplar, conectar sistemas, nivelar y calibrar, y probar. Las etapas se unen y conducen a un conjunto listo para una labor uniforme y segura." style="width: 1020px").m-auto
 
     p.mt-4.mb-0 Enganchar bien requiere, antes, haber elegido el tractor y el implemento adecuados. La selección de máquinas y la maquinaria para ladera son el tema siguiente.
 </template>

@@ -8,13 +8,13 @@
         span 5
       h1 Alistamiento de la maquinaria y manuales técnicos
 
-    .row.align-items-start.mt-4
+    .row.align-items-center.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/t5/intro.png" style="width: 396px").m-auto
       .col-lg-8
         p Una buena labor comienza antes de ingresar al lote. La preparación de la maquinaria permite identificar condiciones que podrían afectar la seguridad, interrumpir el trabajo o disminuir la calidad del resultado. Para ello, es necesario revisar el conjunto tractor–implemento y organizar los recursos requeridos según la actividad prevista.
-        .bg-1.p-4(data-aos="fade-down")
+        .bg-1.p-3(data-aos="fade-down")
           p.mb-0 El alistamiento reúne estas verificaciones en un proceso ordenado, mientras que los manuales del fabricante proporcionan los procedimientos y parámetros específicos de cada equipo. Su consulta permite reconocer qué tareas corresponden al operador y cuáles requieren personal especializado.
 
     separador
@@ -27,19 +27,21 @@
         p El alistamiento es el conjunto de inspecciones, verificaciones, ajustes y preparativos que se realizan sobre el tractor, el implemento y, cuando corresponda, los equipos de precisión antes de iniciar una labor. Su propósito es comprobar que el conjunto reúna las condiciones de funcionamiento, seguridad y configuración necesarias para el trabajo previsto.
         .cajon.color-primario.p-4(data-aos="fade-down")
           p.mb-0 Su alcance va más allá de revisar el motor. Incluye el estado del implemento, las conexiones, los dispositivos de protección y la disponibilidad de combustible, insumos y herramientas. Cuando se utilizan tecnologías de precisión, también comprende la comprobación del monitor, el receptor y los archivos necesarios.
+
+        .row.mt-3
+          .col-lg-12
+            .row.align-items-start
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/t5/ic1.svg" style="width: 84px")
+              .col
+                p.mb-0 Las verificaciones deben responder al equipo y a la labor. Una sembradora requiere revisar sus dosificadores y elementos de apertura y cierre del surco; una fumigadora necesita comprobar el circuito de aplicación y sus componentes. Por ello, la lista de alistamiento debe construirse a partir de los manuales correspondientes.
+
       .col-lg-3
         figure
           img(src="@/assets/curso/temas/t5/f1.png" style="width: 292px").m-auto
 
-    .row.mt-4
-      .col-lg-9
-        .row.align-items-start
-          .col-auto
-            figure
-              img(src="@/assets/curso/temas/t5/ic1.svg" style="width: 84px")
-          .col
-            p.mb-0 Las verificaciones deben responder al equipo y a la labor. Una sembradora requiere revisar sus dosificadores y elementos de apertura y cierre del surco; una fumigadora necesita comprobar el circuito de aplicación y sus componentes. Por ello, la lista de alistamiento debe construirse a partir de los manuales correspondientes.
-
+      
     .row.mt-4
       .col-lg-9
         p.mb-0 La siguiente tabla organiza los principales alcances del alistamiento y su propósito:
@@ -123,7 +125,7 @@
     .row.align-items-center.mt-4
       .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/t5/ilustracion-53.png" style="width: 312px").m-auto
+          img(src="@/assets/curso/temas/t5/ilustracion-53.svg" style="width: 312px").m-auto
       .col-lg-9
         .bg-1.p-4(data-aos="fade-down")
           ul.lista-ul.lista-ul--compacta.mb-0
@@ -157,7 +159,7 @@
           span Chequeo preoperacional del tractor
         figure(data-aos="fade-down")
           img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t5/figura-7-movil.svg" alt="" style="width: 400px")
-          img.d-none.d-md-block(src="@/assets/curso/temas/t5/figura-7.png" alt="Figura 7. Cuatro áreas del chequeo preoperacional del tractor: inspección exterior, niveles de fluidos, elementos de seguridad y equipos de precisión, cada una con sus tres puntos de verificación. Agrupa la revisión por momentos para que el operador no deje fuera ningún sistema antes de iniciar la jornada." style="width: 1020px").m-auto
+          img.d-none.d-md-block(src="@/assets/curso/temas/t5/figura-7.png" alt="Figura 7 que presenta las principales áreas del chequeo preoperacional del tractor: inspección exterior, niveles de fluidos, elementos de seguridad y equipos de precisión, acompañadas de los aspectos que se deben revisar." style="width: 1020px").m-auto
 
     separador
 
@@ -297,7 +299,7 @@
           span Ruta del alistamiento de la maquinaria
         figure(data-aos="fade-down")
           img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t5/figura-8-movil.svg" alt="" style="width: 400px")
-          img.d-none.d-md-block(src="@/assets/curso/temas/t5/figura-8.svg" alt="Figura 8. Ruta de cinco fases del alistamiento de la maquinaria: planear, inspeccionar, acoplar y ajustar, configurar, y probar y liberar. El recorrido completo deja la máquina segura, ajustada y configurada para iniciar la labor." style="width: 1020px").m-auto
+          img.d-none.d-md-block(src="@/assets/curso/temas/t5/figura-8.svg" alt="Figura 8 que presenta la ruta del alistamiento de la maquinaria mediante cinco etapas conectadas: planear, inspeccionar, acoplar y ajustar, configurar, y probar y liberar. La secuencia conduce a una máquina segura, ajustada y configurada para iniciar la labor." style="width: 1020px").m-auto
 </template>
 
 <script>

@@ -258,3 +258,19 @@ overlay de error, los `.cajon` cuadran con las pestañas de 25x8 del XD en los c
 
 Las **diez imágenes de la actividad** (nota 19) y los **dos videos** sin URL (notas 5 y 15).
 Las dos cosas dependen del cliente, no de la maquetación.
+
+
+## 23. Textos alternativos: los sugeridos están en el PASTEBOARD, no en el DOCX
+
+El `_DI.docx` no trae ni una vez la etiqueta «Texto alternativo». Los sugeridos están en el
+**pasteboard del `.xd`**, ocho rótulos que cubren las figuras **1, 3, 4, 5, 6, 7 y 8** (la 1
+está duplicada). Se transcriben literales **quitando el rótulo «Texto alternativo:»**: el alt
+es sólo lo que viene después, y empieza por «Figura N que…».
+
+**La Figura 2 del Tema 1 no tiene sugerido** y las dos infográficas tampoco: ésas conservan el
+alt redactado, de dos frases, según la regla de la casa.
+
+## 24. Resuelto: las imágenes de la actividad
+
+El cliente entregó las diez. Ya no hay duplicados: **10 ficheros, 10 imágenes distintas**
+referenciadas, una por cada pregunta que muestra el kit. La nota 19 queda cerrada.
