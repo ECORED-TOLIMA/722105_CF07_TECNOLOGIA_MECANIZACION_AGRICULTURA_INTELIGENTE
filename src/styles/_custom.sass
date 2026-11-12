@@ -252,3 +252,135 @@ figcaption
       background-color: $color-acento-botones
       span
         color: $white
+
+//- TEMA 2 ------------------------------------------------------------------
+//- Fondos planos del Tema 2, una clase por PAR (relleno, radio) del XD.
+.bg-4
+  background-color: $color-primario-vc
+.bg-5
+  background-color: $color-primario-v
+
+//- El 2.1 repite el `bloque-texto-g` sobre el verde oscuro, aquí a 1020 de ancho.
+.bloque-texto-g--t2
+  background-color: $color-primario-vo
+  min-height: 280px
+
+//- La banda del slider del 2.2 es una imagen del XD (`Enmascarar grupo 1187787`,
+//- 1328x558), no un color plano: tiene los arcos y los puntos del lenguaje del curso.
+.bg-banda-2
+  background-image: url(../assets/curso/temas/t2/banda-22.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  padding: 1.5rem
+  margin-inline: -3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+
+//- La banda del 2.5 mide 1228 en el XD (el ancho del contenido), no 1328: no se sale
+//- de la tarjeta, sólo llega a sus bordes.
+.bg-banda-3
+  background-color: $color-secundario-vc
+
+//- El contenedor de la infográfica: el PNG va sin fondo (se renderizó el grupo, no el
+//- rect), así que el #EEFFDB y el radio de 10 del XD los pone esta clase.
+.bg-infografica
+  background-color: $color-primario-vc
+  border-radius: 10px
+
+//- Los puntos de la infográfica miden 59 px sobre 1020 en el XD = 5,8 %; el kit los
+//- trae al 2,5 % y quedan diminutos sobre las pestañas naranjas.
+.img-infografica__item,
+.img-infografica-b__item
+  width: 5.8%
+
+//- TABLAS del Tema 2. Divisores medidos en el PDF: Tabla 3 en x=582 y x=894;
+//- Tabla 4 en x=497 y x=851.
+.tabla-a
+  &.tabla--t2-3, &.tabla--t2-4
+    thead
+      border-color: $color-acento-contenido
+      background-color: $color-acento-contenido-vc
+      color: $color-sistema-texto
+      th
+        border: none
+    tbody
+      tr
+        background-color: $color-sistema-h
+        &:nth-child(even)
+          background-color: $white
+      td
+        border: none
+        padding: 17px 20px
+      td:first-child, td:nth-child(2)
+        border-right: 1px solid #AFAFAF
+  &.tabla--t2-3
+    th:first-child, td:first-child
+      width: 28.6%
+    th:nth-child(2), td:nth-child(2)
+      width: 30.6%
+  &.tabla--t2-4
+    th:first-child, td:first-child
+      width: 20.2%
+    th:nth-child(2), td:nth-child(2)
+      width: 34.8%
+
+//- ACORDEÓN del 2.3. El XD pinta la tarjeta abierta en #F8EDD3 y las cerradas en
+//- #E8D5D5, con radio 20. El color de la tarjeta es parte del contrato del componente
+//- (prop `clase-tarjeta`), por eso va por clase y no con un !important sobre el ítem.
+.tarjeta--acordion-t2
+  background-color: $color-acento-botones-vc
+  border-radius: 20px
+.acordion--t2
+  .acordion__item__activo .tarjeta--acordion-t2,
+  .acordion__activo .tarjeta--acordion-t2
+    background-color: $color-secundario-vc
+
+//- Las seis tarjetas del carrusel del 2.5 comparten el mismo fondo verde con arcos
+//- (`Trazado 1042679` + su máscara); el icono y el texto van encima, en HTML.
+.tarjeta--compatibilidad
+  background-image: url(../assets/curso/temas/t2/c-fondo.png)
+  background-size: cover
+  background-position: center
+  border-radius: 20px
+  min-height: 430px
+
+//- SLIDER del 2.2. El kit deja los botones blancos a media altura con el chevron
+//- #111e61 y el bullet activo gris. El XD los pone abajo, en círculos #982C03 de 50 px
+//- a 40 px de los bordes de la tarjeta, con el chevron BLANCO, y el bullet activo en
+//- #E8CB91 sobre los inactivos #982C03.
+.slyder--t2
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    background-image: url('../assets/bullets/arrow-blanco.svg')
+    border-color: $color-acento-botones
+    opacity: 1
+    top: auto
+    bottom: 10px
+    &:hover
+      border-color: $color-acento-botones
+  .slyder-a__btn--atrs
+    left: 10px
+  .slyder-a__btn--sigt
+    right: 10px
+  .slyder-a__bullets__item
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+    &--active
+      background-color: $color-secundario
+      border-color: $color-secundario
+
+//- El carrusel del 2.5 lleva los mismos chevrones del XD.
+.slyder-f--t2
+  .slyder-f__btn
+    color: $color-acento-botones
+
+//- El botón del acordeón del 2.3: el XD lo pinta como un círculo relleno #982C03 con el
+//- chevron en blanco; el kit deja `--b` con borde azul del sistema y el icono oscuro.
+.acordion--t2
+  .acordion__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    i
+      color: $white

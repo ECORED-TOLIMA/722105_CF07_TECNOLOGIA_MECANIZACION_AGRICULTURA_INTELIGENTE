@@ -106,3 +106,24 @@ contenido). Si el instruccional las corrige, se actualizan las dos:
 - «no exceder la velocidad normalizada» (tarjeta «Con toma de fuerza»), sin punto final.
 - El DI repite dos veces seguidas la frase «Una misma labor puede combinar varias de ellas…»;
   el XD la pinta una vez y así se maquetó.
+
+## 10. Tema 2: el slider del 2.2 tiene 5 viñetas dibujadas y 4 estados
+
+El XD pinta **cinco** bullets (`Elipse 4701`..`4705`) bajo el slider del 2.2, pero sólo hay
+**cuatro** niveles tecnológicos: «Básicos» en la mesa de trabajo y «Intermedios»,
+«Avanzados» y «Conectados» en el pasteboard, que son exactamente los cuatro que trae el
+`_DI.docx`. La quinta viñeta es residuo de la plantilla del componente.
+
+Se maquetó con **cuatro** diapositivas. Si el instruccional añade un quinto nivel, se suma.
+
+## 11. Tema 2: las tablas 3 y 4 también vienen vacías
+
+Mismo caso que el Tema 1: el XD las dibuja con su encabezado y sus filas, con la nota rosa
+«Completar tabla con doc de instruccional» encima, y el contenido sale del `_DI.docx`.
+Divisores medidos en el PDF: Tabla 3 en x=582 y x=894; Tabla 4 en x=497 y x=851.
+
+## 12. Tema 2: frase repetida en el DI (2.5)
+
+El `_DI.docx` repite dos veces seguidas, sin separación, «Esta relación es general: la
+categoría no debe determinarse únicamente por la potencia o el tamaño del tractor…». El XD la
+pinta una vez y así se maquetó, igual que la repetición del 1.3.
