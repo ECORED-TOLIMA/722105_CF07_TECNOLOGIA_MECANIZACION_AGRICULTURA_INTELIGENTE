@@ -50,15 +50,21 @@
 
     p.mt-4 Monitorear el terreno consiste en observar y medir sus condiciones antes y durante las labores. La información obtenida permite identificar cambios, localizar restricciones y fundamentar decisiones sobre el momento y la forma de intervención.
 
-    p.mb-0
-      b Observación y mediciones de campo
+    .titulo-tres.mt-2: h3 Observación y mediciones de campo
+
     p El recorrido del lote permite reconocer obstáculos, residuos, accesos y zonas con acumulación de agua. Debe complementarse con observaciones en distintos puntos, evitando tomar una sola zona como representativa de toda la superficie.
 
-    p La prueba manual de humedad ofrece una orientación inicial sobre la consistencia del suelo a la profundidad de trabajo. Su interpretación depende de la textura y debe contrastarse con otras observaciones.
+    .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
+      .col-lg-4.d-none.d-lg-block.order-2
+        figure
+          img(src='@/assets/curso/temas/t4/1.png', alt='', style="width: 390px").m-auto
+      .col-lg-8
+        .cajon.color-primario.p-4
+          p La prueba manual de humedad ofrece una orientación inicial sobre la consistencia del suelo a la profundidad de trabajo. Su interpretación depende de la textura y debe contrastarse con otras observaciones.
 
-    p El penetrómetro mide la resistencia a la penetración y ayuda a localizar posibles capas compactadas. Sin embargo, una lectura elevada no demuestra por sí sola compactación, porque también está influida por la humedad y la textura.
+        p.mt-2 El penetrómetro mide la resistencia a la penetración y ayuda a localizar posibles capas compactadas. Sin embargo, una lectura elevada no demuestra por sí sola compactación, porque también está influida por la humedad y la textura.
 
-    p Las siguientes son las herramientas de monitoreo y representación espacial:
+        p Las siguientes son las herramientas de monitoreo y representación espacial:
 
     .row.justify-content-center.mt-4
       .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-block

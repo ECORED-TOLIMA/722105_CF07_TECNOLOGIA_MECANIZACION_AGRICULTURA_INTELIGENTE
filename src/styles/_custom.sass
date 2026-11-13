@@ -613,3 +613,23 @@ figcaption
   border-radius: 11px
 .r-20
   border-radius: 20px
+
+//Títulos con íconos-----------------
+.titulo-tres
+  margin-bottom: 1.5rem
+  h3
+    margin-left: 3rem
+    margin-right: 1rem
+    margin-bottom: 0
+  background-color: #FFC96D
+  display: inline-block
+  padding: 0.5rem 1rem
+  border-radius: 1rem
+  position: relative
+  &::before
+    content: url('../assets/curso/temas/icon.svg')
+    position: absolute
+    top: 5px
+    left: 0
+    transform: translate(-10%, -15%)
+    width: 57px
