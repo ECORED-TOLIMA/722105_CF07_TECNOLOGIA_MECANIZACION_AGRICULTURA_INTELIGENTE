@@ -268,7 +268,7 @@
 
     figure.mt-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/GnlvuZRb3lk?si=r3HD6F2zoRcR0ieE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mt-4 Para finalizar, el siguiente esquema integra los principales conceptos abordados sobre las condiciones del terreno, el monitoreo, la variabilidad espacial y el tráfico de maquinaria en la labor agrícola mecanizada:
 
