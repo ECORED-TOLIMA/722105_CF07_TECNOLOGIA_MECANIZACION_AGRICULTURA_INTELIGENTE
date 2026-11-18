@@ -171,7 +171,7 @@
       .col-lg-8.mb-4.mb-lg-0
         p La maquinaria especializada para ladera comprende equipos adaptados para realizar labores en terrenos inclinados, donde la pendiente y los accesos pueden limitar el uso de tractores convencionales. Incluye determinados modelos de tractores de bajo perfil, tractores isodiamétricos, motocultores, portaherramientas y equipos de orugas.
         p Su función es facilitar la mecanización y reducir el esfuerzo físico de los agricultores. Según el modelo, incorpora características como centro de gravedad bajo, mayor separación entre ruedas, dimensiones compactas o sistemas de rodaje que favorecen la estabilidad y la tracción.
-        .bg-1.p-4(data-aos="fade-down")
+        .bg-17.p-4(data-aos="fade-down")
           p.mb-0 La selección debe considerar la pendiente, las condiciones del suelo, el implemento y los límites del fabricante. Estas características no garantizan una operación segura en cualquier terreno.
       .col-lg-4
         figure

@@ -273,13 +273,32 @@
 
     .row.justify-content-center.mt-4
       .col-lg-7
-        LineaTiempoD.linea-tiempo-d--t1(data-aos="fade-down")
-          .row(v-for="(a, i) in areas" :key="'area-'+i" :numero="String(i + 1)" :titulo="a.titulo")
-            .col-md-12
-              p.mb-0 {{ a.texto }}
+        LineaTiempoD.linea-tiempo-d--t1
+          .row(numero="1" titulo="Tractores")
+            .col-md-12.mb-4.mb-md-0
+              p Realizar el mantenimiento correspondiente al horómetro y revisar llantas, frenos, luces, conexiones y dispositivos de protección. Las intervenciones deben responder al estado del equipo y a las instrucciones del fabricante.
+    
+          .row(numero="2" titulo="Implementos")
+            .col-md-12.mb-4.mb-md-0
+              p Inspeccionar piezas de desgaste, rodamientos, cadenas, conexiones y dosificadores. Reemplazar los componentes que alcancen los límites de desgaste establecidos y efectuar los ajustes y las calibraciones necesarios para la labor prevista.
+    
+          .row(numero="3" titulo="Equipos de precisión")
+            .col-md-12.mb-4.mb-md-0
+              p Respaldar archivos y comprobar configuraciones, límites de lotes, líneas guía y comunicaciones. Revisar la estación base RTK cuando se utilice. Las actualizaciones de <em>firmware</em> o <em>software</em> deben realizarse cuando corresponda, verificando su compatibilidad y probando el funcionamiento antes de la campaña.
+
+          .row(numero="4" titulo="Repuestos e insumos")
+            .col-md-12.mb-4.mb-md-0
+              p Verificar la disponibilidad de piezas críticas, filtros, lubricantes, combustible e insumos. Organizar su almacenamiento e identificar proveedores y tiempos de suministro para reducir interrupciones durante el trabajo.
+
+          .row(numero="5" titulo="Personal")
+            .col-md-12.mb-4.mb-md-0
+              p Asignar equipos y responsabilidades, identificar necesidades de capacitación y revisar los procedimientos de operación, seguridad y reporte de novedades. Los operadores deben conocer las características de la maquinaria que tendrán a su cargo.
+    
       .col-lg-3.d-none.d-lg-block
-        figure
-          img(src="@/assets/curso/temas/t5/ilustracion-56.png" style="width: 292px").m-auto
+        figure(data-aos="fade-up")
+          img(src='@/assets/curso/temas/t5/ilustracion-56.png', alt='', style="width: 100%").m-auto
+
+    
 
     p.mt-4 El alistamiento de temporada se completa con pruebas de funcionamiento y el registro de las intervenciones realizadas. Las condiciones inseguras deben corregirse antes de autorizar el uso del equipo, y las demás novedades deben evaluarse y atenderse según su importancia. Durante la campaña, esta preparación se complementa con las revisiones diarias.
 
@@ -374,33 +393,6 @@ export default {
         titulo: 'Bloqueo del diferencial',
         texto:
           'Limita la diferencia de giro entre las ruedas motrices para mejorar la tracción en determinadas condiciones. Su conexión y desconexión deben seguir las indicaciones del manual.',
-      },
-    ],
-    areas: [
-      {
-        titulo: 'Tractores',
-        texto:
-          'Realizar el mantenimiento correspondiente al horómetro y revisar llantas, frenos, luces, conexiones y dispositivos de protección. Las intervenciones deben responder al estado del equipo y a las instrucciones del fabricante.',
-      },
-      {
-        titulo: 'Implementos',
-        texto:
-          'Inspeccionar piezas de desgaste, rodamientos, cadenas, conexiones y dosificadores. Reemplazar los componentes que alcancen los límites de desgaste establecidos y efectuar los ajustes y las calibraciones necesarios para la labor prevista.',
-      },
-      {
-        titulo: 'Equipos de precisión',
-        texto:
-          'Respaldar archivos y comprobar configuraciones, límites de lotes, líneas guía y comunicaciones. Revisar la estación base RTK cuando se utilice. Las actualizaciones de firmware o software deben realizarse cuando corresponda, verificando su compatibilidad y probando el funcionamiento antes de la campaña.',
-      },
-      {
-        titulo: 'Repuestos e insumos',
-        texto:
-          'Verificar la disponibilidad de piezas críticas, filtros, lubricantes, combustible e insumos. Organizar su almacenamiento e identificar proveedores y tiempos de suministro para reducir interrupciones durante el trabajo.',
-      },
-      {
-        titulo: 'Personal',
-        texto:
-          'Asignar equipos y responsabilidades, identificar necesidades de capacitación y revisar los procedimientos de operación, seguridad y reporte de novedades. Los operadores deben conocer las características de la maquinaria que tendrán a su cargo.',
       },
     ],
   }),

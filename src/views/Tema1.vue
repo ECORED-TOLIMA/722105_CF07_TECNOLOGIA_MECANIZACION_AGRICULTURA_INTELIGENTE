@@ -86,7 +86,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Tipos, clasificación y nivel de tecnología
 
-    p.mt-4 Las máquinas agrícolas se clasifican según su función, teniendo:
+    p.mt-4 Las máquinas agrícolas se clasifican según su función en las siguientes categorias:
 
     .row.bg-banda-1.mt-4
       .col-12
@@ -201,7 +201,7 @@
 
     .row.align-items-center.mt-4
       .col-lg-8.mb-4.mb-lg-0
-        .bg-4.p-4(data-aos="fade-down")
+        .bg-16.p-4(data-aos="fade-down")
           p.mb-0 Durante las labores agrícolas, el polvo, los residuos vegetales y las variaciones de carga aumentan las exigencias sobre estos sistemas. Por ello, el operador debe conocer su función, interpretar los indicadores del tablero y reconocer cambios en el comportamiento de la máquina. La detección oportuna de anomalías permite prevenir daños y paradas imprevistas. Las revisiones e intervenciones deben realizarse según el manual técnico y el alcance de las responsabilidades del operador.
 
         p.mt-2 La siguiente tabla resume los aspectos que requieren vigilancia durante la operación y las acciones ante una anomalía:
@@ -253,7 +253,7 @@
     .row.align-items-start.mt-4
       .col-lg-8.mb-4.mb-lg-0
         p La relación peso-potencia expresa cuántos kilogramos de peso tiene el tractor por cada caballo de potencia o kilovatio. Un tractor con peso insuficiente para su potencia puede presentar un patinamiento excesivo y dificultades para transmitirla al suelo; uno con demasiado peso aumenta la compactación y la potencia necesaria para su propio desplazamiento. La relación adecuada depende de la labor: los trabajos de tracción pesada, como la arada o el subsolado, requieren más peso por unidad de potencia que las labores rápidas y livianas o aquellas que utilizan principalmente la toma de fuerza (ASABE, 2006).
-        .cajon.color-primario.p-4.mt-4(data-aos="fade-down")
+        .cajon.color-secundario.p-4.mt-4(data-aos="fade-down")
           p.mb-0 El patinamiento expresa, en porcentaje, la reducción del avance real de la rueda respecto a la distancia de referencia que recorrería con el mismo número de vueltas sin carga de tracción. Un patinamiento moderado permite desarrollar tracción; uno excesivo desperdicia combustible, desgasta las llantas y deteriora la estructura del suelo. Para controlarlo, se ajustan el lastre, la presión de inflado, la velocidad y la profundidad de trabajo. El lastre puede incluir contrapesos o líquido en las llantas, siempre conforme a las indicaciones del fabricante.
       .col-lg-4.d-none.d-lg-block
         figure

@@ -136,7 +136,12 @@
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Enganche, calibración y ajustes de los implementos
 
-    p.mt-4 La preparación del conjunto tractor–implemento requiere establecer una unión adecuada, regular las condiciones de trabajo y comprobar que el equipo entregue el resultado esperado. Para ello, se realizan tres procesos complementarios: el enganche, la calibración y los ajustes. Comprender sus diferencias permite organizar la preparación de la maquinaria y reconocer cómo cada proceso contribuye a la seguridad, la uniformidad de la labor y el aprovechamiento de la potencia. A continuación, se detalla cada uno:
+    .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
+      .col-lg-3.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/t2/1.svg', alt='', style="width: 290px").m-auto
+      .col-lg-9
+        p.mt-4 La preparación del conjunto tractor–implemento requiere establecer una unión adecuada, regular las condiciones de trabajo y comprobar que el equipo entregue el resultado esperado. Para ello, se realizan tres procesos complementarios: el enganche, la calibración y los ajustes. Comprender sus diferencias permite organizar la preparación de la maquinaria y reconocer cómo cada proceso contribuye a la seguridad, la uniformidad de la labor y el aprovechamiento de la potencia. A continuación, se detalla cada uno:
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -284,7 +289,7 @@
 
     p Un implemento trasero demasiado pesado puede descargar el eje delantero y reducir el control de la dirección. Los contrapesos delanteros deben utilizarse según las indicaciones del fabricante, sin superar las capacidades del tractor, los ejes y los neumáticos. Incorporar lastre no permite compensar un implemento que exceda los límites de carga o de levante del equipo.
 
-    p A continuación, se resume los aspectos que deben verificarse para comprobar la compatibilidad del conjunto tractor–implemento antes de su utilización:
+    p A continuación, se resumen los aspectos que deben verificarse para comprobar la compatibilidad del conjunto tractor–implemento antes de su utilización:
 
     SlyderF.slyder-f--t2.mt-4(columnas="col-sm-6 col-lg-4")
       .tarjeta.tarjeta--compatibilidad.p-4(v-for="(a, i) in compatibilidad" :key="'comp-'+i")
