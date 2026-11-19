@@ -28,7 +28,7 @@
 
     figure.mt-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/GnlvuZRb3lk?si=r3HD6F2zoRcR0ieE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7WQ6jnqru3k?si=lnXhb0dsHnTQaPEJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
